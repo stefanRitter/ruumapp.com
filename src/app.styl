@@ -7,7 +7,7 @@ typeheight = "(max-height:375px)"
 
 
 // colors
-blue  = #61DAFB
+blue  = rgb(0, 175, 255)
 gray  = #222222
 
 
@@ -55,10 +55,9 @@ section
 
 // components
 .title
-  color blue
-  background gray
   text-align center
   margin-top 0
+  min-height 80%
   h2
     padding-bottom 2em
     margin 0
@@ -67,13 +66,16 @@ section
       font-size 1em
   h1
     margin 0
-    padding 1em 0.5em
+    padding 1em 0.5em 0
     vertical-align middle
     @media phone
       padding 0.5em 0 0 0
     img
       vertical-align middle
       height 2em
+      position: absolute
+      left: 0
+      top: -16px
     a
       color inherit
       text-decoration none
@@ -140,65 +142,7 @@ section
   @media phone
     margin 0
 
-.company
-  float left
-  width 22%
-  margin 1em 1.5%
-  text-decoration none
-  h1
-    margin-bottom 0.5em
-  a
-    cursor pointer
-    &:hover
-      color inherit
-      background #007acc
-  .nav-links
-    a
-      &:hover
-        background none
-  span
-    display inline-block
-    margin-top 0.5em
-    color gray
-    -webkit-transition all 0.3s
-    -moz-transition all 0.3s
-    transition all 0.3s
-  img
-    width 80%
-    -webkit-filter grayscale(100%)
-    -moz-filter grayscale(100%)
-    filter grayscale(100%)
-    -webkit-transition all 0.3s
-    -moz-transition all 0.3s
-    transition all 0.3s
-  &:hover
-    img
-      -webkit-filter grayscale(0)
-      -moz-filter grayscale(0)
-      filter grayscale(0)
-    span
-      color blue
-  @media tablet
-    width 30%
-  @media phone
-    width 47%
-
-.company.stand-alone
-  float none
-  display block
-  margin auto
-  width 100%
-  img
-    width 100%
-    max-width 212px
-    -webkit-filter grayscale(0)
-    -moz-filter grayscale(0)
-    filter grayscale(0)
-  .button
-    display inline-block
-    margin-top 0.5em
-
-#addcompany
+#footer
   clear both
   text-align center
   padding 3em 2em 8em 2em
