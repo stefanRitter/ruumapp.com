@@ -1,0 +1,27 @@
+- var url         = "http://ruumapp.com"
+- var title       = "Ruum"
+- var description = "All-in-one decision making for teams. Sign up for beta."
+
+doctype
+html(lang="en", itemtype="http://schema.org/WebPage" itemscope)
+  
+  head(prefix="og: http://ogp.me/ns#")
+    include ../shared/_meta.jade
+  
+  body
+    include ../shared/_title.jade
+    
+    include ../shared/_alerts.jade
+    
+    | Join
+    
+    footer#footer
+      h2 Ruum
+      p(style="margin-top:3em;")
+        | Contact us: 
+        a(href="mailto:hello@ruumapp.com") hello@ruumapp.com
+        br
+        br
+        | © 2016 – Built with &hearts; in Berlin, funded by SAP. All rights reserved.
+    
+    include ../shared/_scripts.jade
