@@ -1,6 +1,6 @@
-- var url         = "http://react.careers"
-- var title       = "React.careers - The ultimate directory of companies using React.js"
-- var description = "The ultimate directory of companies using React.js - Find jobs at companies who are using your favorite framework: React.js"
+- var url         = "http://ruumapp.com"
+- var title       = "Ruum - All-in-one decision making for teams."
+- var description = "All-in-one decision making for teams. Sign up for beta."
 
 doctype
 html(lang="en", itemtype="http://schema.org/WebPage" itemscope)
@@ -15,28 +15,16 @@ html(lang="en", itemtype="http://schema.org/WebPage" itemscope)
     .clear-both
 
     section
-      h1 Companies using React.js
-      
-      a.button(href="#addcompany") Add a company
+      h1 Sign up for beta.
       
       .clear-both
-      each data, title in companies
-        - var href="/companies/"+title.toLowerCase().replace(/ /g,"-")+".html"
-        a.company(href=href)
-          img(src=data.logo alt=title)
-          span
-            | Search for React.js jobs at
-            br
-            = title      
+      
       .clear-both
 
     footer#addcompany
-      h2 Add a company
-      | Email company name, 500x500px logo, and careers url to 
-      a(href="mailto:admin@react.careers") admin@react.careers
+      h2 Ruum
       p(style="margin-top:3em;")
         em
-          | Built by 
-          a(href="http://stefanritter.com/") Stefan Ritter
+          | Built with &hearts; in Berlin, funded by SAP.
     
     include shared/_scripts.jade

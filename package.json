@@ -1,5 +1,5 @@
 {
-  "name": "React.careers",
+  "name": "ruumapp.com",
   "version": "0.0.0",
   "description": "",
   "main": "Gruntfile.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/stefanRitter/react.careers.git"
+    "url": "git://github.com/stefanRitter/ruumapp.com.git"
   },
   "author": "stefanRitter",
-  "license": "MIT",
+  "license": "private",
   "bugs": {
-    "url": "https://github.com/stefanRitter/react.careers/issues"
+    "url": "https://github.com/stefanRitter/ruumapp.com/issues"
   },
-  "homepage": "http://react.careers",
+  "homepage": "http://ruumapp.com",
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-contrib-concat": "^0.5.0",
