@@ -25,7 +25,7 @@ module.exports = function (grunt) {
       compile: {
         options: {
           client: false,
-          pretty: false
+          pretty: true
         },
         files: [ {
           cwd: 'src/',

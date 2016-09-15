@@ -1,0 +1,35 @@
+- var url         = "http://ruumapp.com"
+- var title       = "Ruum"
+- var description = "All-in-one decision making for teams. Sign up for beta."
+
+doctype
+html(lang="en", itemtype="http://schema.org/WebPage" itemscope)
+
+  head(prefix="og: http://ogp.me/ns#")
+    include ../shared/_meta.jade
+
+  body
+    .title
+      h1
+        a(href="/")
+          strong Ruum
+
+      h2
+        | Data + People = Better Decisions.
+    
+    div(style="text-align:center")
+      img(src="/ruum.png" style="width:100%;max-width:800px;")
+
+    .clear-both
+
+    .alerts-form
+      h3(style="margin-bottom:1.5em")
+        | Become a Ruumer - sign up to stay informed:
+
+      .form-group
+        a.button(href="/join/") Sign Up
+
+
+    include ../shared/_footer.jade
+
+    include ../shared/_scripts.jade
