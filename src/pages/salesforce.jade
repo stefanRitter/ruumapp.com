@@ -4,28 +4,30 @@
 
 doctype
 html(lang="en", itemtype="http://schema.org/WebPage" itemscope)
-
+  
   head(prefix="og: http://ogp.me/ns#")
     include ../shared/_meta.jade
-
+  
   body
     .title
       h1
-        a(href="/")
-          strong RUUM
-
+        img(src="/salesforce.png")
+        | +
+        strong RUUM
       h2
-        | Data + People = Better Decisions.
+        | Close leads like never before: Ruum's Salesforce integration.
       h3
-        | Ruum enables your team to organize and prioritize your data in a collaborative, flexible and effective way. 
-    
+        | Ruum enables your team to organize and execute your work in a collaborative, flexible and data-driven way. 
+
     div(style="text-align:center")
       img(src="/ruum.jpg" style="width:100%;max-width:800px;")
-
+    
     .clear-both
-
+    
+    include ../shared/_features.jade
+        
     include ../shared/_form.jade
-
+    
     include ../shared/_footer.jade
-
+    
     include ../shared/_scripts.jade
