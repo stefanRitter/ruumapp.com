@@ -5,6 +5,16 @@ phablet    = "(max-width:768px)"
 tablet     = "(max-width:980px)"
 typeheight = "(max-height:375px)"
 
+.inline-no-phone
+  display: inline-block;
+  @media phone
+    display: none;
+
+.only-phone
+  display: none;
+  @media phone
+    display: auto;
+
 
 // colors
 blue  = rgb(0, 175, 255)
@@ -63,6 +73,7 @@ section
     padding-bottom: 2em
     max-width: 600px
     margin: 5px auto;
+    line-height: 1.4
   h2
     padding-bottom 0
     margin 0
@@ -166,9 +177,7 @@ section
     max-width: 300px
     margin 3%
     @media phone
-      display: block;
       width: auto;
-
     h2
       text-align: center;
       font-weight: bold;
