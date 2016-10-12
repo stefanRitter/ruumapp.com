@@ -29,7 +29,13 @@ module.exports = function (grunt) {
         },
         files: [ {
           cwd: 'src/',
-          src: ['index.jade', 'sales/**/*', 'pages/**/*'],
+          src: [
+            'index.jade',
+            'sales/**/*',
+            'hr/**/*',
+            'marketing/**/*',
+            'pages/**/*'
+          ],
           dest: 'dist',
           expand: true,
           ext: '.html'
@@ -46,6 +52,7 @@ module.exports = function (grunt) {
             src: [
               'src/CNAME',
               'src/**/*.jpg',
+              'src/**/*.svg',
               'src/**/*.png',
               'src/*.ico',
               'src/*.html'
