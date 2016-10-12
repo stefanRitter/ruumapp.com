@@ -1,7 +1,7 @@
 - var url         = "http://ruumapp.com"
 - var title       = "RUUM"
 - var description = "All-in-one decision making for teams. Sign up for beta access."
-- var smoke       = "marketing"
+- var smoke       = "salesforce"
 
 doctype
 html(lang="en", itemtype="http://schema.org/WebPage" itemscope)
@@ -12,24 +12,31 @@ html(lang="en", itemtype="http://schema.org/WebPage" itemscope)
   body
     .title
       h1
+        img(src="/salesforce.png" style="width:100%;max-width:200px;" alt="Salesforce")
+        | &nbsp;+&nbsp;
         a(href="/")
           img(src="/ruum-logo.svg" style="width:100%;max-width:200px;" alt="RUUM")
-          em for marketing
+          em for sales
       h2
-        | A shared workspace for all your team's campaigns.
+        | A shared workspace for all your team's deals.
       h3
-        | RUUM enables marketing teams to react faster to market trends and customer insights. 
-        | Analyze, plan and coordinate campaign activities to boost product performance. 
+        br
+        | RUUM's Salesforce integration allows you to quickly engage and onbord anyone into an open opportunity: 
+        | Close more deals together - with RUUM's advanced collaboration features. 
+      h3
+        strong "No Deal Is Won or Lost Alone."
+        br
+        em Marc Benioff, CEO Salesforce inc.
     
     include ../shared/_form.jade
-    
+
     div(style="text-align:center")
-      img(src="/ruum-marketing.jpg" style="width:100%;max-width:1000px;")
+      img(src="/ruum.jpg" style="width:100%;max-width:1000px;")
     
     .clear-both
     
-    include ../shared/_features.jade
-        
+    include ../shared/_features_sales.jade
+
     include ../shared/_form.jade
     
     include ../shared/_footer.jade
