@@ -60,34 +60,17 @@ module.exports = function (grunt) {
             dest: 'dist/',
             filter: 'isFile'}
         ]
-      },
-      blog: {
-        files: [
-          {
-            expand: true,
-            flatten: false,
-            src: [
-              'blog/**/*.html',
-              'blog/**/*.jpg',
-              'blog/**/*.png',
-              'blog/**/*.gif',
-              'blog/**/*.css',
-              'blog/**/*.pdf',
-              ],
-            dest: 'dist/',
-            filter: 'isFile'}
-        ]
       }
     },
 
     watch: {
       styles: {
         files: ['src/**/*.styl'],
-        tasks: ['stylus', 'jade']
+        tasks: ['copy','stylus','jade']
       },
       html: {
         files: ['src/**/*.jade'],
-        tasks: ['jade']
+        tasks: ['copy','stylus','jade']
       }
     },
 

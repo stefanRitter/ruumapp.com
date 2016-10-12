@@ -16,6 +16,7 @@ typeheight = "(max-height:375px)"
     display: auto;
 
 
+
 // variables
 // fontfamily  = 'Raleway', Helvetica, Arial, sans-serif
 // fontfamily  = 'Roboto', sans-serif;
@@ -173,12 +174,38 @@ section
     margin 3%
     @media phone
       width: auto;
+    h1
+      em
+        display: inline-block;
+        font-size: .6em;
+        position: absolute;
+        left: 0;
+        width: 210%;
+        bottom: -1em;
+        color inherit
+        font-weight: bold
+      img
+        vertical-align: middle;
+        width:80%;
+        max-width:120px;
+      a
+        position: relative;
+        left: -1.4em;
+        color inherit
+        text-decoration none
     h2
       text-align: center;
       font-weight: bold;
     p
       text-align: left;
       line-height: 1.5
+      &.center
+        text-align: center;
+      .button
+        background: black
+        border: 0
+        &:hover
+          color gray
     img
       width 4.5em
 
