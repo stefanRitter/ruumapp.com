@@ -163,9 +163,11 @@ section
     background #E30000
 
 .features
-  margin 5px
+  margin 5px 0
   text-align: center;
   vertical-align: top;
+  &.usecases
+    background: whitesmoke
   .feature
     display inline-block
     vertical-align: top;
@@ -175,6 +177,7 @@ section
     @media phone
       width: auto;
     h1
+      margin-top: 0
       em
         display: inline-block;
         font-size: .6em;
