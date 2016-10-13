@@ -10,18 +10,22 @@ html(lang="en", itemtype="http://schema.org/WebPage" itemscope)
     include ../shared/_meta.jade
   
   body
-    .title
-      h1
-        a(href="/")
-          img(src="/ruum-logo.svg" style="width:100%;max-width:200px;" alt="RUUM")
-          em for HR &amp; recruiting
-      h2
-        | A shared workspace for all your team's hiring activities.
-      h3
-        | RUUM enables hiring managers &amp; recruiters to find the perfect match. 
-        | Manage the hiring funnel, coordinate interviews, discuss and decide on candidates who make good teams even better. 
+    .lightgray
+      .title
+        h1
+          a(href="/")
+            img(src="/ruum-logo.svg" style="width:100%;max-width:200px;" alt="RUUM")
+            em for HR &amp; recruiting
+        h2
+          | A shared workspace for teams who hire rockstars.
+        h3
+          | RUUM enables hiring managers &amp; recruiters to find the perfect match. 
+          | Manage the hiring funnel, coordinate interviews, discuss and decide on candidates who make good teams even better. 
 
-    include ../shared/_form.jade
+      include ../shared/_form.jade
+    
+    .clear-both
+    .clear-both
     
     div(style="text-align:center")
       img(src="/ruum-hr.png" style="width:100%;max-width:1000px;")
