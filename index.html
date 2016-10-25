@@ -57,7 +57,7 @@
       <div class="marvel-device ipad silver landscape">
         <div class="camera"></div>
         <div class="screen">
-          <video id="loop" width="300px" loop>
+          <video id="loop" width="300px">
             <source src="ruum.mp4" type="video/mp4">
             <source src="ruum.ogv" type="video/ogv"><img src="/ruum-marketing.png" alt="RUUM for marketing" style="width:100%;">
           </video>
@@ -175,6 +175,7 @@
             }
           });
         });
+        document.dispatchEvent(new Event('scroll'));
       })()
     </script>
   </body>
