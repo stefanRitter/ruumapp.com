@@ -124,6 +124,23 @@
       b.type = "text/javascript";b.async = true;
       b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
       s.parentNode.insertBefore(b, s);})();
+      
+    </script>
+    <script>
+      (function () {
+        var titleHeight = window.innerHeight;
+        var videoTag = document.querySelector('#loop');
+        if (!videoTag) return;
+        
+        document.addEventListener('scroll', function () {
+          window.requestAnimationFrame(function () {
+            var top = videoTag.getBoundingClientRect().top;
+            if (top < titleHeight) {
+              videoTag.play();
+            }
+          });
+        });
+      })()
     </script>
   </body>
 </html>

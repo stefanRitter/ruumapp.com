@@ -57,7 +57,7 @@
       <div class="marvel-device ipad silver landscape">
         <div class="camera"></div>
         <div class="screen">
-          <video width="300px" loop autoplay>
+          <video id="loop" width="300px" loop>
             <source src="ruum.mp4" type="video/mp4">
             <source src="ruum.ogv" type="video/ogv"><img src="/ruum-marketing.png" alt="RUUM for marketing" style="width:100%;">
           </video>
@@ -159,6 +159,23 @@
       b.type = "text/javascript";b.async = true;
       b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
       s.parentNode.insertBefore(b, s);})();
+      
+    </script>
+    <script>
+      (function () {
+        var titleHeight = window.innerHeight;
+        var videoTag = document.querySelector('#loop');
+        if (!videoTag) return;
+        
+        document.addEventListener('scroll', function () {
+          window.requestAnimationFrame(function () {
+            var top = videoTag.getBoundingClientRect().top;
+            if (top < titleHeight) {
+              videoTag.play();
+            }
+          });
+        });
+      })()
     </script>
   </body>
 </html>
