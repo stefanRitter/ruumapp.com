@@ -19,21 +19,18 @@ html(lang="en", itemtype="http://schema.org/WebPage" itemscope)
           | Don't reply all. Get a ruum.
         h3
           | Solve business problems collaboratively.
-
-        include shared/_form.jade
       
-      .devicecontainer  
-        .device
-          .homebutton
-          .screen
-            video#loop(width="300px")
-              source(src="ruum.mp4" type="video/mp4")
-              source(src="ruum.ogv" type="video/ogv")
-              img(src="/ruum-marketing.png" alt="RUUM for marketing" style="width:100%;")
+        .devicecontainer  
+          .device
+            .homebutton
+            .screen
+              video#loop(width="300px")
+                source(src="ruum.mp4" type="video/mp4")
+                source(src="ruum.ogv" type="video/ogv")
+                img(src="/ruum-marketing.png" alt="RUUM for marketing" style="width:100%;")
+        
+        include shared/_form.jade
               
-    .clear-both
-    .clear-both
-    
     include shared/_usecases.jade
     
     .clear-both

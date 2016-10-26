@@ -18,11 +18,7 @@ typeheight = "(max-height:375px)"
 
 
 // variables
-// fontfamily  = 'Raleway', Helvetica, Arial, sans-serif
-// fontfamily  = 'Roboto', sans-serif;
-// fontfamily  = 'Open Sans', sans-serif;
 fontfamily = 'Lato', sans-serif;
-
 maincolor = #39ABBB;
 
 
@@ -82,9 +78,14 @@ section
   left: 0
   right: 0
   height 80%
+  @media phone
+    display: none;
 
 .devicecontainer
   margin: 0 10px
+  @media phone
+    margin: 0 5px
+
 .device
   max-width: 900px
   text-align: center;
@@ -116,7 +117,28 @@ section
     right: -72px;
     top: 50%;
     margin-top: -25px;
-
+  @media tablet
+    border-left: 60px solid white;
+    border-right: 60px solid white;
+    border-top: 20px solid white;
+    border-bottom: 20px solid white;
+    border-radius: 25px;
+    .homebutton
+      width: 30px
+      height: 30px
+      margin-top: -15px;
+      right: -45px;
+  @media phone
+    border-left: 30px solid white;
+    border-right: 30px solid white;
+    border-top: 10px solid white;
+    border-bottom: 10px solid white;
+    border-radius: 15px;
+    .homebutton
+      width: 15px
+      height: 15px
+      margin-top: -7px;
+      right: -25px;
 
 .title
   text-align center
@@ -124,10 +146,15 @@ section
   padding: 0
   color: white
   position: relative;
+  @media phone
+    background: maincolor
+    overflow: hidden;
   .alerts-form
     position: absolute;
     top: 20px
     right: 10px
+    @media phone
+      position: static;
   .max-width
     margin: auto;
     padding-top: 6%;
@@ -155,27 +182,13 @@ section
     margin: 0;
     padding: 0;
     font-size: 0;
-  h1
-    vertical-align: middle;
-    em
-      display: inline-block;
-      font-size: .5em;
-      position: absolute;
-      left: 2em;
-      width: 120%;
-      bottom: -1em;
-      color darkgray
-    img
-      vertical-align: middle;
-    a
-      position: relative;
-      color inherit
-      text-decoration none
+    @media phone
+      position: static;
 
 
 .alerts-form
   text-align left
-  padding 0 8px
+  padding 0 6px
   vertical-align: top;
   display: inline-block;
   border-radius 10px
@@ -217,7 +230,19 @@ section
     vertical-align: top;
     margin 0
     padding 0
-
+  @media phone
+    display: block;
+    position: static;
+    margin: 20px 5px
+    padding 2px 6px
+    .form-group
+      display: block
+    input
+      border-bottom: 1px solid white
+      display: block;
+      width: 100%
+    button
+      width: 100%
 .form-button
 .button
   appearance none
@@ -244,6 +269,10 @@ section
   vertical-align: top;
   &.usecases
     background: white
+    overflow: hidden;
+    margin-top: 3em
+    @media phone
+      margin-top: 0
   .feature
     display inline-block
     vertical-align: top;
