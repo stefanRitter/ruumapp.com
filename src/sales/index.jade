@@ -10,17 +10,15 @@ html(lang="en", itemtype="http://schema.org/WebPage" itemscope)
     include ../shared/_meta.jade
   
   body
-    .lightgray
-      .title
-        h1
-          //- img(src="/salesforce.png" style="width:100%;max-width:200px;" alt="Salesforce")
-          //- | &nbsp;+&nbsp;
-          a(href="/")
-            img(src="/ruum-logo.svg" style="width:100%;max-width:200px;" alt="RUUM")
-            em for sales
+    .bluebackground
+    .title
+      .max-width
+        a(href="/")
+          img.logo(src="/ruum-white.svg" style="width:100%;max-width:200px;" alt="RUUM")
         h2
           | A shared workspace for teams who close more deals.
         h3
+          br
           strong "No Deal Is Won or Lost Alone."
           br
           em Marc Benioff, CEO Salesforce inc.
@@ -29,20 +27,21 @@ html(lang="en", itemtype="http://schema.org/WebPage" itemscope)
           | RUUM enables sales teams to close more deals together. 
           | Manage and organize your leads, create the best game plan 
           | - all the way from lead to contract. 
-
+        
+        include ../shared/_form.jade
       
-      include ../shared/_form.jade
-
+      .device
+        .homebutton
+        .screen
+          img(src="/sales.jpg"  alt="RUUM for sales" style="width:100%;max-width:1000px;")
+                
     .clear-both
-  
-    div(style="text-align:center")
-      img(src="/ruum-sales.png"  alt="RUUM for sales" style="width:100%;max-width:1000px;")
-    
     .clear-both
     
     include ../shared/_features_sales.jade
 
-    include ../shared/_form.jade
+    div(style="text-align:center")
+      include ../shared/_form.jade
     
     include ../shared/_footer.jade
     

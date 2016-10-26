@@ -23,6 +23,9 @@ typeheight = "(max-height:375px)"
 // fontfamily  = 'Open Sans', sans-serif;
 fontfamily = 'Lato', sans-serif;
 
+maincolor = #39ABBB;
+
+
 // general
 body
 html
@@ -31,6 +34,7 @@ html
   padding 0
   font-family fontfamily
   font-size 18px
+  background: whitesmoke
   @media tablet
     font-size 14px
 
@@ -71,12 +75,64 @@ section
   background: whitesmoke
   overflow hidden
 
+.bluebackground
+  background: maincolor
+  position: absolute;
+  top: 0
+  left: 0
+  right: 0
+  height 80%
+
+.device
+  max-width: 900px
+  text-align: center;
+  position: relative;
+  margin: auto
+  -webkit-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.5);
+  box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.5);
+  border-left: 90px solid white;
+  border-right: 90px solid white;
+  border-top: 40px solid white;
+  border-bottom: 40px solid white;
+  border-radius: 50px;
+  background: white
+  video, img
+    width 100%
+  .screen
+    width: 100%
+    -webkit-box-shadow: 0px 0px 0px 2px rgba(238,238,238,1);
+    -moz-box-shadow: 0px 0px 0px 2px rgba(238,238,238,1);
+    box-shadow: 0px 0px 0px 2px rgba(238,238,238,1);
+  .homebutton
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #EEEEEE;
+    right: -72px;
+    top: 50%;
+    margin-top: -25px;
+
+
 .title
   text-align center
-  margin 5px
-  margin-top 0
+  margin 0
+  padding: 0
+  color: white
+  position: relative;
+  .alerts-form
+    position: absolute;
+    top: 20px
+    right: 10px
+  .max-width
+    margin: auto;
+    padding-top: 6%;
+    max-width: 1200px
+    position: relative;
   h3
-    font-weight: normal;
+    font-weight: 100;
     padding-bottom: 1em
     max-width: 700px
     margin: 5px auto;
@@ -84,11 +140,19 @@ section
     em
       font-size: 0.8em
   h2
-    padding .7em 0
+    padding 0
+    padding-top 6%
     margin 0
     line-height 1.5
     font-weight: bold;
     font-size: 2em;
+  .logo
+    position: absolute;
+    left: 10px
+    top: 20px
+    margin: 0;
+    padding: 0;
+    font-size: 0;
   h1
     vertical-align: middle;
     em
@@ -106,50 +170,16 @@ section
       color inherit
       text-decoration none
 
-.screenshot
-  text-align: center
-  position: relative;
-  video
-    width: 100%
-  @media tablet
-    .marvel-device.ipad.silver.landscape
-      padding 0
-      border none
-      box-shadow: none
-      width: 100%
-      height: auto;
-      background: white
-      &:before
-        display: none
-      .camera
-        display: none
-      .screen
-        border none
-        box-shadow: none
-        height: auto;
-        background: white
-      .home
-        display: none
-
 
 .alerts-form
-  text-align center
-  padding 10px 15px
+  text-align left
+  padding 0 8px
   vertical-align: top;
-  margin-bottom: 1em;
-  a
-    color White
-    min-width: 200px
-    text-align: center;
-    display: inline-block;
-  h3
-    font-size 1em
-    padding: 0
-    margin: 5px
-    margin-bottom 0.4em
+  display: inline-block;
+  border-radius 10px
+  background: #2F8FA0;
   label, input, button
     display block
-    min-width 270px
     margin 5px 0
     height 38px
     vertical-align: top;
@@ -163,42 +193,55 @@ section
     font-family: fontfamily
     text-indent: 12px;
     border-radius: 4px;
-    border: 2px solid #d3d3d3;
+    border: none;
     font-size: 1.2em;
-
-.form-group
-  display inline-block
-  text-align left
-  clear both
-  vertical-align: top;
-  margin 0 5px
+    background: transparent
+    width: 200px
+    outline: none
+    &::-webkit-input-placeholder
+      color: white;
+    &:-moz-placeholder
+      color: white;
+    &::-moz-placeholder
+      color: white;
+    &:-ms-input-placeholder
+      color: white;
+    &::placeholder
+      color white
+  .form-group
+    display inline-block
+    text-align left
+    clear both
+    vertical-align: top;
+    margin 0
+    padding 0
 
 .form-button
 .button
   appearance none
-  padding 10px 20px
+  padding 0 20px
   text-decoration none
-  border: 2px solid #E30000;
-  background: #E30000;
+  border: none;
+  background: white;
   font-family: fontfamily
-  color: #fff;
+  color: maincolor;
   text-decoration: none;
-  font-size: 1em;
+  font-size: 16px;
   font-weight: bold;
   border-radius: 5px;
-  text-transform: uppercase;
   letter-spacing: 1px;
   cursor: pointer;
+  width: 175px
   &:hover
-    color inherit
-    background #E30000
+    color black
+    background white
 
 .features
   margin 5px 0
   text-align: center;
   vertical-align: top;
   &.usecases
-    background: whitesmoke
+    background: white
   .feature
     display inline-block
     vertical-align: top;
@@ -238,6 +281,7 @@ section
       &.center
         text-align: center;
       .button
+        padding: 10px 20px
         background: black
         border: 0
         &:hover
