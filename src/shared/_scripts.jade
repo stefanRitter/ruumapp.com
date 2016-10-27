@@ -22,15 +22,19 @@ script.
 
 script.
   (function () {
+    // skip on phones
+    if (window.innerWidth < 760) return;
+  
     var titleHeight = window.innerHeight;
     var videoTag = document.querySelector('#loop');
     if (!videoTag) return;
     
-    document.addEventListener('scroll', function () {
+    document.addEventListener('scroll', function startVidOnView () {
       window.requestAnimationFrame(function () {
         var top = videoTag.getBoundingClientRect().top;
         if (top < titleHeight) {
           videoTag.play();
+          document.removeEventListener('scroll', startVidOnView);
         }
       });
     });
