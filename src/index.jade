@@ -1,6 +1,6 @@
 - var url         = "http://ruumapp.com"
 - var title       = "ruum"
-- var description = "Don't reply all. Get a Ruum. Sign up for early access."
+- var description = "Don't reply all. Get a Ruum."
 - var smoke       = "home"
 
 doctype
@@ -29,7 +29,9 @@ html(lang="en", itemtype="http://schema.org/WebPage" itemscope)
                 source(src="ruum.ogv" type="video/ogv")
                 img(src="/ruum-marketing.png" alt="RUUM for marketing" style="width:100%;")
         
-        include shared/_form.jade
+        .buttons
+          a.signinbutton(href="/join") Sign In
+          include shared/_joinbutton.jade
               
     include shared/_usecases.jade
     
@@ -38,7 +40,7 @@ html(lang="en", itemtype="http://schema.org/WebPage" itemscope)
     include shared/_features.jade
 
     div(style="text-align:center")
-      include shared/_form.jade
+      include shared/_joinbutton.jade
     
     include shared/_footer.jade
     

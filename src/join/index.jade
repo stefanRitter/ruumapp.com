@@ -13,13 +13,14 @@ html(lang="en", itemtype="http://schema.org/WebPage" itemscope)
       h1
         a(href="/")
           img(src="/ruum-logo.svg" style="width:100%;max-width:200px;" alt="RUUM")
-      h2
-        | Thanks for signing up.
-        br
-        | We'll be in touch soon.
+      h2(style="margin-top:0;padding-top:0;")
+        | We're in closed beta.
+      h3(style="font-weight:bold")
+        | Request an invitation:
+      
+    .joinform
+      include ../shared/_form.jade
       h1 🎉
     
-    
     include ../shared/_footer.jade
-    
     include ../shared/_scripts.jade
