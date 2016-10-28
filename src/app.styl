@@ -196,9 +196,10 @@ section
   text-align left
   padding 0 6px
   vertical-align: top;
-  display: inline-block;
+  display: block;
+  margin auto
+  max-width: 435px
   border-radius 10px
-  background: #2F8FA0;
   label, input, button
     display block
     margin 5px 0
@@ -216,8 +217,8 @@ section
     border-radius: 4px;
     border: none;
     font-size: 1.2em;
-    background: transparent
-    width: 200px
+    background: #2F8FA0;
+    width: 100%
     outline: none
     &::-webkit-input-placeholder
       color: white;
@@ -230,28 +231,20 @@ section
     &::placeholder
       color white
   .form-group
-    display inline-block
+    display block
     text-align left
     clear both
     vertical-align: top;
     margin 0
     padding 0
-  @media phone
-    display: block;
-    position: static;
-    margin: 20px 5px
-    padding 2px 6px
-    .form-group
-      display: block
-    input
-      border-bottom: 1px solid white
-      display: block;
-      width: 100%
-    button
-      width: 100%
+    margin-top: 10px
+  button
+    width: 100%
+
 
 .form-button
 .joinbutton
+.signinbutton
 .button
   appearance none
   padding 0 20px
@@ -271,9 +264,21 @@ section
     color white
     background #D79900
 
+.signinbutton
 .joinbutton
   padding: 10px 20px;
   text-transform: uppercase;
+
+a.signinbutton
+  background: transparent
+  padding: 9px 19px;
+  border: 1px white solid;
+  color white
+  margin-right: 20px
+  text-transform: none;
+  &:hover
+    color white
+    background transparent
 
 .joinform
   margin-top: 3em
