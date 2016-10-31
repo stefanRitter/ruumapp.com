@@ -19,7 +19,11 @@ html(lang="en", itemtype="http://schema.org/WebPage" itemscope)
           | Don't reply all. Get a ruum.
         h3
           | Solve business problems collaboratively.
-      
+          
+        .buttons
+          a.signinbutton(href="/join") Sign In
+          include shared/_joinbutton.jade
+            
         .devicecontainer  
           .device
             .homebutton
@@ -30,9 +34,7 @@ html(lang="en", itemtype="http://schema.org/WebPage" itemscope)
                 source(src="ruum.ogv" type="video/ogv")
                 img(src="marketing.jpg" alt="RUUM for marketing" style="width:100%;")
         
-        .buttons
-          a.signinbutton(href="/join") Sign In
-          include shared/_joinbutton.jade
+        
               
     include shared/_usecases.jade
     
