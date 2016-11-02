@@ -35,6 +35,7 @@ module.exports = function (grunt) {
             'hr/**/*',
             'marketing/**/*',
             'join/**/*',
+            'signin/**/*',
             'pages/**/*'
           ],
           dest: 'dist',
