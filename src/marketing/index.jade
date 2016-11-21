@@ -10,36 +10,5 @@ html(lang="en", itemtype="http://schema.org/WebPage" itemscope)
     include ../shared/_meta.jade
   
   body
-    .bluebackground
-    .title
-      .max-width
-        a(href="/")
-          img.logo(src="/ruum-white.svg" style="width:100%;max-width:200px;" alt="RUUM")
-        h2
-          | A shared workspace for teams who own the market.
-        h3
-          | RUUM enables marketing teams to react faster to market trends and customer insights. 
-          | Analyze, plan and coordinate campaign activities to boost product performance.
-        
-      
-        .devicecontainer
-          .device
-            .homebutton
-            .screen
-              img(src="/marketing.jpg"  alt="RUUM for marketing" style="width:100%;max-width:1000px;")
-        
-        .buttons
-          a.signinbutton(href="/signin") Sign In
-          include ../shared/_joinbutton.jade
-                  
-    .clear-both
-    .clear-both
-    
-    include ../shared/_features.jade
-    
-    div(style="text-align:center")    
-      include ../shared/_joinbutton.jade
-    
-    include ../shared/_footer.jade
-    
+    include ../shared/_404.jade
     include ../shared/_scripts.jade

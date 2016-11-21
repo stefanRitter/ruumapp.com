@@ -33,7 +33,6 @@ module.exports = function (grunt) {
             'index.jade',
             'sales/**/*',
             'hr/**/*',
-            'marketing/**/*',
             'join/**/*',
             'signin/**/*',
             'pages/**/*'
