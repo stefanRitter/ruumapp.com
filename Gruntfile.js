@@ -88,8 +88,8 @@ module.exports = function (grunt) {
     }
   });
 
-  // grunt.registerTask('build',   ['copy', 'stylus', 'jade']);
-  grunt.registerTask('build',   ['copy']);
+  grunt.registerTask('build',   ['copy', 'stylus', 'jade']);
+  // grunt.registerTask('build',   ['copy']);
   grunt.registerTask('publish', ['build', 'gh-pages']);
   grunt.registerTask('default', ['build', 'watch']);
 };
