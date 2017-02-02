@@ -59,7 +59,8 @@ module.exports = function (grunt) {
               'src/**/*.ogv',
               'src/**/*.css',
               'src/*.ico',
-              'src/*.html'
+              'src/*.html',
+              'home/**/*'
               ],
             dest: 'dist/',
             filter: 'isFile'}
