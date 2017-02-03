@@ -3,6 +3,52 @@
     <head>
         <meta charset="utf-8">
         <title>ruum - 403</title>
+        <link rel="stylesheet" href="/fonts.css" name="main-styles">
+
+        <style>
+            html, body {
+                text-align: center;
+                padding: 20px;
+                font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+                font-weight: 100;
+            }
+            h1 {
+                letter-spacing: -2px;
+                margin-bottom: 32px;
+                font-weight: 100;
+                font-size: 3em;
+            }
+            p {
+                font-size: 1.3em;
+                margin: 2em auto;
+                width: 100%;
+                max-width: 600px;
+            }
+            img {
+                width: 100%;
+                max-width: 500px;
+            }
+            .email {
+                border: none;
+                border-bottom: 1px solid gray;
+                font-size: 1.5em;
+                font-weight: 100;
+                outline: none;
+            }
+            .submit {
+                appearance: none;
+                background: #39ABBB;
+                border: none;
+                outline: none;
+                cursor: pointer;
+                font-size: 1.5em;
+                border-radius: 50px;
+                padding-left: 20px;
+                padding-right: 20px;
+                color: white;
+                margin-left: 10px;
+            }
+        </style>
     </head>
     <body>
 
@@ -15,8 +61,7 @@
         </p>
 
         <p>
-            But let's keep in touch.
-            <br>
+            But let's keep in touch:
             Leave us your email address and we'll notify you when we're ready to let you in!
         </p>
 
@@ -25,8 +70,8 @@
               <input type="text" name="b_8736a6f17f9edb63fd39a1524_a025c3ad68" tabindex="-1" value="">
               <input type="hidden" value=smoke name="SMOKE" id="mce-SMOKE">
           </div>
-          <input id="mce-EMAIL" type="email" class="ae-2 fromLeft input-96 done" name="EMAIL" placeholder="Email">
-          <input type="submit" class="button teal uppercase ae-3 fromRight done" name="subscribe" placeholder="Name" value="Sign Up">
+          <input id="mce-EMAIL" type="email" class="email" name="EMAIL" placeholder="Email">
+          <input type="submit" class="submit" name="subscribe" placeholder="Name" value="Sign Up">
         </form>
 
         <script>
