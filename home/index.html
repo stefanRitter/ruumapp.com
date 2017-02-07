@@ -7,6 +7,7 @@
         <!-- Page title -->
         <title>ruum</title>
         <meta name="description" content="Zero overhead project management">
+         <link rel="icon" href="/ruum-32.png">
 
         <!-- Styles -->
         <link rel="stylesheet" href="/fonts.css" name="main-styles">
@@ -41,7 +42,7 @@
   <div class="sections desktop">
     <div class="left"><a href="#"><svg style="width:140px;height:32px"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use></svg></a></div>
     <div class="right">
-      <a class="button menuButton uppercase popupTrigger signup" href="#signup">Sign Up for Free</a>
+      <a class="trackEvent button menuButton uppercase popupTrigger signup" href="#signup">Sign Up for Free</a>
     </div>
   </div>
   <div class="sections compact hidden">
@@ -56,7 +57,7 @@
   <div class="content">
     <a href="#" class="logo"><svg width="120" height="50"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use></svg></a>
     <ul class="mainMenu uppercase">
-      <li><a href="#signup">Sign Up</a></li>
+      <li><a class="trackEvent" href="#signup">Sign Up</a></li>
     </ul>
     <ul class="social">
       <li><a href="https://www.facebook.com/ruumapp" target="_blank" ><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook"></use></svg></a></li>
@@ -196,6 +197,12 @@
   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
   ga('create', 'UA-84219934-1', 'auto');
   ga('send', 'pageview');
+</script>
+
+<script>
+jQuery('.trackEvent').on('click', function () {
+    ga('send', 'event', 'signup click');
+});
 </script>
 
 <script>
