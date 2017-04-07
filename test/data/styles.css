@@ -1,0 +1,238 @@
+﻿.ax_default {
+  font-family:'Helvetica';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  color:#333333;
+  text-align:center;
+  line-height:normal;
+}
+.box_1 {
+}
+.box_2 {
+}
+.box_3 {
+}
+.ellipse {
+}
+.image {
+}
+.text_field {
+  color:#000000;
+  text-align:left;
+}
+.heading_1 {
+  font-family:'Helvetica';
+  font-weight:bold;
+  font-style:normal;
+  font-size:32px;
+  text-align:left;
+}
+.heading_2 {
+  font-family:'Helvetica';
+  font-weight:bold;
+  font-style:normal;
+  font-size:24px;
+  text-align:left;
+}
+.heading_3 {
+  font-family:'Helvetica';
+  font-weight:bold;
+  font-style:normal;
+  font-size:18px;
+  text-align:left;
+}
+.heading_4 {
+  font-family:'Helvetica';
+  font-weight:bold;
+  font-style:normal;
+  font-size:14px;
+  text-align:left;
+}
+.heading_5 {
+  font-family:'Helvetica';
+  font-weight:bold;
+  font-style:normal;
+  text-align:left;
+}
+.heading_6 {
+  font-family:'Helvetica';
+  font-weight:bold;
+  font-style:normal;
+  font-size:10px;
+  text-align:left;
+}
+.paragraph {
+  text-align:left;
+}
+.line {
+}
+.text_field1 {
+  color:#000000;
+  text-align:left;
+}
+.flow_shape {
+}
+.system_14 {
+  font-family:'Roboto';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#000000;
+  text-align:left;
+  line-height:normal;
+}
+.icon {
+}
+.subtitle {
+  font-family:'Roboto';
+  font-weight:400;
+  font-style:normal;
+  font-size:11px;
+  color:#000000;
+  text-align:center;
+  line-height:normal;
+}
+.placeholder_text {
+  font-family:'Roboto';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#8E8E93;
+}
+.system_80 {
+  font-family:'Roboto';
+  font-weight:400;
+  font-style:normal;
+  font-size:80px;
+  color:#000000;
+  text-align:left;
+  line-height:normal;
+}
+.system_17 {
+  font-family:'Roboto';
+  font-weight:400;
+  font-style:normal;
+  font-size:17px;
+  color:#000000;
+  text-align:left;
+  line-height:normal;
+}
+.system_22 {
+  font-family:'Roboto';
+  font-weight:400;
+  font-style:normal;
+  font-size:22px;
+  color:#000000;
+  text-align:left;
+  line-height:normal;
+}
+.action_sheet_background {
+  font-family:'Roboto-Medium', 'Roboto Medium', 'Roboto';
+  font-weight:500;
+  font-style:normal;
+  font-size:13px;
+  color:#8F8F8F;
+}
+.section_header {
+  font-family:'Roboto';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  color:#6D6D72;
+  text-align:left;
+  line-height:normal;
+}
+.system_15 {
+  font-family:'Roboto';
+  font-weight:400;
+  font-style:normal;
+  font-size:15px;
+  color:#000000;
+  text-align:left;
+  line-height:normal;
+}
+.system_13 {
+  font-family:'Roboto';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  color:#000000;
+  text-align:left;
+  line-height:normal;
+}
+.link_text {
+  font-family:'Roboto';
+  font-weight:400;
+  font-style:normal;
+  font-size:17px;
+  color:#007AFF;
+  text-align:left;
+  line-height:normal;
+}
+.link_text_disabled {
+  color:#CDCDCD;
+}
+.headline {
+  font-family:'Roboto-Bold', 'Roboto Bold', 'Roboto';
+  font-weight:700;
+  font-style:normal;
+  font-size:17px;
+  color:#000000;
+  text-align:left;
+  line-height:22px;
+}
+.body_copy {
+  font-family:'Roboto';
+  font-weight:400;
+  font-style:normal;
+  font-size:17px;
+  color:#000000;
+  text-align:left;
+  line-height:22px;
+}
+.callout {
+  font-family:'Roboto';
+  font-weight:400;
+  font-style:normal;
+  font-size:16px;
+  color:#000000;
+  text-align:left;
+  line-height:21px;
+}
+.subhead {
+  font-family:'Roboto';
+  font-weight:400;
+  font-style:normal;
+  font-size:15px;
+  color:#000000;
+  text-align:left;
+  line-height:20px;
+}
+.footnote {
+  font-family:'Roboto';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  color:#000000;
+  text-align:left;
+  line-height:18px;
+}
+.caption_1 {
+  font-family:'Roboto';
+  font-weight:400;
+  font-style:normal;
+  font-size:12px;
+  color:#000000;
+  text-align:left;
+  line-height:16px;
+}
+.caption_2 {
+  font-family:'Roboto';
+  font-weight:400;
+  font-style:normal;
+  font-size:11px;
+  color:#000000;
+  text-align:left;
+  line-height:13px;
+}
