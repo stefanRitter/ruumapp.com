@@ -1,5 +1,7 @@
 # ruumapp.com
 
+Pure CSS Grid: https://purecss.io/grids/
+
 ## Setup
     npm install
     npm install -g grunt-cli
@@ -12,5 +14,4 @@
 ## dev server
     cd dist
     python -m SimpleHTTPServer
-
-http://localhost:8000/
+    Goto: http://localhost:8000/
