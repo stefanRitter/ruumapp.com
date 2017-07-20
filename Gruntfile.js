@@ -61,6 +61,18 @@ module.exports = function (grunt) {
             filter: 'isFile'}
         ]
       },
+      root: {
+        files: [
+          {
+            expand: true,
+            flatten: true,
+            src: [
+              'rootpages/**/*'
+              ],
+            dest: 'dist/',
+            filter: 'isFile'}
+        ]
+      },
       second: {
         files: [
           {
