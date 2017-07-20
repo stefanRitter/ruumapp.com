@@ -1,4 +1,91 @@
+@font-face {
+    font-family: 'Benton Sans';
+    font-weight: 100;
+    font-style: normal;
+    src: url('https://open.ruumapp.com/fonts/bentonsanslight.woff2') format('woff2'),
+         url('https://open.ruumapp.com/fonts/bentonsanslight.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Benton Sans';
+    font-weight: 400;
+    font-style: normal;
+    src: url('https://open.ruumapp.com/fonts/bentonsansregular.woff2') format('woff2'),
+         url('https://open.ruumapp.com/fonts/bentonsansregular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Benton Sans';
+    font-weight: 700;
+    font-style: normal;
+    src: url('https://open.ruumapp.com/fonts/bentonsansmedium.woff2') format('woff2'),
+         url('https://open.ruumapp.com/fonts/bentonsansmedium.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Benton Sans';
+    font-weight: 900;
+    font-style: normal;
+    src: url('https://open.ruumapp.com/fonts/bentonsansbold.woff2') format('woff2'),
+         url('https://open.ruumapp.com/fonts/bentonsansbold.ttf') format('truetype');
+}
+
+html, body, *, button, input, select, textarea, .pure-g [class *= "pure-u"] {
+    font-family: 'Benton Sans', Helvetica, sans-serif;
+}
+
+a {
+    color: #39abbb;
+}
+
+div, p, section {
+    font-weight: 100;
+}
+
 section {
     margin: auto;
     max-width: 980px;
+}
+
+main {
+    clear: both;
+}
+
+header nav {
+    float: right;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.8em;
+    padding: 1em 0;
+}
+
+.l-box {
+    text-align: left;
+    padding: 0 1em;
+}
+
+.button {
+    font-family: inherit;
+    font-family: inherit;
+    font-size: 100%;
+    padding: .5em 1em;
+    color: #444;
+    color: rgba(0,0,0,.8);
+    border: 1px solid #999;
+    border: transparent;
+    background-color: #E6E6E6;
+    text-decoration: none;
+    border-radius: 2px;
+    display: inline-block;
+    zoom: 1;
+    white-space: nowrap;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    box-sizing: border-box;
+    line-height: normal;
 }

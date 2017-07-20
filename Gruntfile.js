@@ -81,7 +81,7 @@ module.exports = function (grunt) {
         tasks: ['copy','stylus','jade']
       },
       html: {
-        files: ['newhome/**/*.html','home/**/*.html', 'src/**/*.jade'],
+        files: ['newhome/**/*','home/**/*', 'src/**/*.jade'],
         tasks: ['copy','stylus','jade']
       }
     },
@@ -96,7 +96,6 @@ module.exports = function (grunt) {
   });
 
   grunt.registerTask('build',   ['copy', 'stylus', 'jade']);
-  // grunt.registerTask('build',   ['copy']);
   grunt.registerTask('publish', ['build', 'gh-pages']);
   grunt.registerTask('default', ['build', 'watch']);
 };
