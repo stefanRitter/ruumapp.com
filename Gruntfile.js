@@ -60,6 +60,18 @@ module.exports = function (grunt) {
             dest: 'dist/',
             filter: 'isFile'}
         ]
+      },
+      second: {
+        files: [
+          {
+            expand: true,
+            flatten: true,
+            src: [
+              'newhome/**/*'
+              ],
+            dest: 'dist/newhome/',
+            filter: 'isFile'}
+        ]
       }
     },
 
@@ -69,7 +81,7 @@ module.exports = function (grunt) {
         tasks: ['copy','stylus','jade']
       },
       html: {
-        files: ['src/**/*.jade'],
+        files: ['newhome/**/*.html','home/**/*.html', 'src/**/*.jade'],
         tasks: ['copy','stylus','jade']
       }
     },

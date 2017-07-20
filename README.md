@@ -1,11 +1,16 @@
 # ruumapp.com
 
+## Setup
+    npm install
+    npm install -g grunt-cli
 
-grunt build
-grunt watch
-grunt publish
+## build
+    grunt build
+    grunt watch
+    grunt publish
 
-cd dist
-python -m SimpleHTTPServer
+## dev server
+    cd dist
+    python -m SimpleHTTPServer
 
 http://localhost:8000/
