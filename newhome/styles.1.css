@@ -58,7 +58,6 @@ header nav {
 header img {
     width: 90px;
     height: auto;
-    margin-top: 8px;
 }
 
 footer {
@@ -271,4 +270,36 @@ section.feature p {
     font-size: 16px;
     line-height: 1.56;
     color: #4f5050;
+}
+
+@media (max-width: 767px) {
+    h1 {
+        font-size: 34px;
+        line-height: 1.09;
+        letter-spacing: -0.4px;
+        margin-bottom: 16px;
+    }
+    main,
+    header,
+    footer {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    section.background-1:before,
+    section.background-3:before {
+        right: -32px;
+        width: 50%
+    }
+
+    section.background-2:before,
+    section.background-4:before {
+        left: -32px;
+        width: 50%
+    }
+
+    .usp {
+        margin: 60px 0;
+        box-shadow: none;
+    }
 }
