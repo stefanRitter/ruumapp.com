@@ -1,277 +1,240 @@
-@font-face {
-    font-family: 'Benton Sans';
-    font-weight: 100;
-    font-style: normal;
-    src: url('bentonsanslight.woff2') format('woff2'),
-         url('bentonsanslight.ttf') format('truetype');
-}
-@font-face {
-    font-family: 'Benton Sans';
-    font-weight: 400;
-    font-style: normal;
-    src: url('bentonsansregular.woff2') format('woff2'),
-         url('bentonsansregular.ttf') format('truetype');
-}
-@font-face {
-    font-family: 'Benton Sans';
-    font-weight: 700;
-    font-style: normal;
-    src: url('bentonsansmedium.woff2') format('woff2'),
-         url('bentonsansmedium.ttf') format('truetype');
-}
-@font-face {
-    font-family: 'Benton Sans';
-    font-weight: 900;
-    font-style: normal;
-    src: url('bentonsansbold.woff2') format('woff2'),
-         url('bentonsansbold.ttf') format('truetype');
+
+main {
+    padding: 0 32px;
+    max-width: 1200px;
+    margin: auto;
 }
 
-html, body, *, button, input, select, textarea, .pure-g [class *= "pure-u"] {
-    font-family: 'Benton Sans', Helvetica, sans-serif;
+header {
+    padding: 24px 32px;
+    max-width: 1200px;
+    margin: auto;
 }
 
-a {
-    color: #39abbb;
+header nav {
+    float: right;
 }
 
-div, p, section {
-    font-weight: 400;
+header img {
+    width: 90px;
+    height: auto;
+    margin-top: 8px;
 }
 
-@media (max-width: 767px) {
-    main {
-        padding: 0 32px;
-        max-width: 1200px;
-        margin: auto;
-    }
+footer {
+    text-align: center;
+    padding: 40px 32px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 1.56;
+    text-align: right;
+    color: #dadddd;
+    max-width: 1200px;
+    margin: auto;
+}
 
-    header {
-        padding: 24px 32px;
-        max-width: 1200px;
-        margin: auto;
-    }
+footer span {
+    float: left;
+}
 
-    header nav {
-        float: right;
-    }
+footer a {
+    color: #dadddd;
+    margin-left: 20px;
+    text-decoration: none;
+}
 
-    header img {
-        width: 90px;
-        height: auto;
-        margin-top: 8px;
-    }
+.l-box {
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
 
-    footer {
-        text-align: center;
-        padding: 40px 32px;
-        margin-bottom: 20px;
-        font-size: 18px;
-        line-height: 1.56;
-        text-align: right;
-        color: #dadddd;
-        max-width: 1200px;
-        margin: auto;
-    }
+.button {
+    font-family: inherit;
+    font-family: inherit;
+    font-size: 100%;
+    padding: .5em 1em;
+    color: #444;
+    color: rgba(0,0,0,.8);
+    border: 1px solid #999;
+    border: transparent;
+    background-color: #E6E6E6;
+    text-decoration: none;
+    border-radius: 2px;
+    display: inline-block;
+    zoom: 1;
+    white-space: nowrap;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    box-sizing: border-box;
+    line-height: normal;
+}
 
-    footer span {
-        float: left;
-    }
+.button.login,
+.button.signup {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.29;
+    color: #4f5050;
+    background-color: transparent;
+    padding: 8px 20px;
+}
 
-    footer a {
-        color: #dadddd;
-        margin-left: 20px;
-        text-decoration: none;
-    }
+.button.signup {
+    border-radius: 65px;
+    border: solid 1px #dadddd;
+}
 
-    .l-box {
-        text-align: left;
-    }
+.ruum-button.button {
+    border-radius: 100px;
+    background-color: #39abbb;
+    box-shadow: 0 6px 14px 0 rgba(70, 151, 162, 0.5);
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.33;
+    text-align: center;
+    padding: 16px 32px;
+    margin-bottom: 32px;
+}
 
-    .button {
-        font-family: inherit;
-        font-family: inherit;
-        font-size: 100%;
-        padding: .5em 1em;
-        color: #444;
-        color: rgba(0,0,0,.8);
-        border: 1px solid #999;
-        border: transparent;
-        background-color: #E6E6E6;
-        text-decoration: none;
-        border-radius: 2px;
-        display: inline-block;
-        zoom: 1;
-        white-space: nowrap;
-        vertical-align: middle;
-        text-align: center;
-        cursor: pointer;
-        -webkit-user-drag: none;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-        box-sizing: border-box;
-        line-height: normal;
-    }
+h1 {
+    font-size: 34px;
+    line-height: 1.09;
+    letter-spacing: -0.4px;
+    margin-bottom: 16px;
+    font-weight: 300;
+    color: #4f5050;
+    margin: 40px 0;
+}
 
-    .button.login,
-    .button.signup {
-        font-size: 14px;
-        font-weight: bold;
-        line-height: 1.29;
-        color: #4f5050;
-        background-color: transparent;
-        padding: 8px 20px;
-    }
+.description {
+    margin-bottom: 32px;
+    font-size: 15px;
+    line-height: 1.47;
+    text-align: left;
+    color: #4f5050;
+}
 
-    .button.signup {
-        border-radius: 65px;
-        border: solid 1px #dadddd;
-    }
+.usp {
+    border-radius: 16px;
+    background-color: #ffffff;
+    box-shadow: none;
+    display: inline-block;
+    text-align: left;
+    margin: 0;
+}
 
-    .ruum-button.button {
-        border-radius: 100px;
-        background-color: #39abbb;
-        box-shadow: 0 6px 14px 0 rgba(70, 151, 162, 0.5);
-        color: #ffffff;
-        font-size: 15px;
-        font-weight: 500;
-        line-height: 1.33;
-        text-align: center;
-        padding: 16px 32px;
-        margin-bottom: 32px;
-    }
+.usp h3 {
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 1.15;
+    letter-spacing: -0.4px;
+    color: #4f5050;
+    margin-bottom: 20px;
+    padding: 0;
+}
 
-    h1 {
-        font-size: 34px;
-        line-height: 1.09;
-        letter-spacing: -0.4px;
-        margin-bottom: 16px;
-        font-weight: 300;
-        color: #4f5050;
-        margin: 40px 0;
-    }
+.usp p {
+    font-size: 16px;
+    line-height: 1.56;
+    color: #4f5050;
+    padding: 0;
+}
 
-    .description {
-        margin-bottom: 32px;
-        font-size: 15px;
-        line-height: 1.47;
-        text-align: left;
-        color: #4f5050;
-    }
+.usp-img {
+    width: 200px;
+    position: absolute;
+    top: 20px;
+    left: calc(50% - 100px);
+}
 
-    .usp-all-container {
-        text-align: center;
-    }
+.single {
+    text-align: center;
+    max-width: 900px;
+    margin: auto;
+}
 
-    .usp {
-        border-radius: 16px;
-        background-color: #ffffff;
-        box-shadow: none;
-        display: inline-block;
-        text-align: left;
-        margin: 0;
-    }
+.single h2 {
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 1.32;
+    letter-spacing: -0.4px;
+    color: #4f5050;
+    margin-bottom: 30px;
+}
 
-    .usp h3 {
-        font-size: 26px;
-        font-weight: bold;
-        line-height: 1.15;
-        letter-spacing: -0.4px;
-        color: #4f5050;
-        margin-bottom: 20px;
-        padding: 0;
-    }
+.quote {
+    margin: 100px auto;
+}
 
-    .usp p {
-        font-size: 16px;
-        line-height: 1.56;
-        color: #4f5050;
-        padding: 0;
-    }
+.quote p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #4f5050;
+    margin: 0;
+}
 
-    .single {
-        text-align: center;
-        max-width: 900px;
-        margin: auto;
-    }
+section.background {
+    min-height: 100px;
+    position: relative;
+}
 
-    .single h2 {
-        font-size: 28px;
-        font-weight: 300;
-        line-height: 1.32;
-        letter-spacing: -0.4px;
-        color: #4f5050;
-        margin-bottom: 30px;
-    }
+section.background-1:before,
+section.background-2:before,
+section.background-3:before,
+section.background-4:before {
+    width: 50%;
+    height: 100%;
+    content: '';
+    display: block;
+    position: absolute;
+    background-size: 96%;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
 
-    .quote {
-        margin: 100px auto;
-    }
+section.background-1:before {
+    top: 0;
+    right: -32px;
+    background-image: url(background.svg);
+}
 
-    .quote p {
-        font-size: 16px;
-        line-height: 1.5;
-        color: #4f5050;
-        margin: 0;
-    }
+section.background-2:before {
+    top: 0;
+    left: -32px;
+    background-image: url(background.svg);
+}
 
-    section.background {
-        min-height: 100px;
-        position: relative;
-    }
+section.background-3:before {
+    top: 0;
+    right: -32px;
+    background-image: url(background.svg);
+}
 
-    section.background-1:before,
-    section.background-2:before,
-    section.background-3:before,
-    section.background-4:before {
-        width: 50%;
-        height: 100%;
-        content: '';
-        display: block;
-        position: absolute;
-        background-size: 100%;
-        background-repeat: no-repeat;
-        z-index: -1;
-    }
+section.background-4:before {
+    top: 0;
+    left: -32px;
+    background-image: url(background.svg);
+}
 
-    section.background-1:before {
-        top: 0;
-        right: -32px;
-        background-image: url(background-1.svg);
-    }
+section.feature h3 {
+    font-size: 38px;
+    font-weight: bold;
+    line-height: 1.37;
+    letter-spacing: -0.5px;
+    color: #4f5050;
+    margin-bottom: 60px;
+}
 
-    section.background-2:before {
-        top: 0;
-        left: -32px;
-        background-image: url(background-2.svg);
-    }
-
-    section.background-3:before {
-        top: 0;
-        right: -32px;
-        background-image: url(background-3.svg);
-    }
-
-    section.background-4:before {
-        top: 0;
-        left: -32px;
-        background-image: url(background-4.svg);
-    }
-
-    section.feature h3 {
-        font-size: 38px;
-        font-weight: bold;
-        line-height: 1.37;
-        letter-spacing: -0.5px;
-        color: #4f5050;
-        margin-bottom: 60px;
-    }
-
-    section.feature p {
-        font-size: 16px;
-        line-height: 1.56;
-        color: #4f5050;
-    }
+section.feature p {
+    font-size: 16px;
+    line-height: 1.56;
+    color: #4f5050;
 }
