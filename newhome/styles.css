@@ -36,7 +36,7 @@ a {
 }
 
 div, p, section {
-    font-weight: 100;
+    font-weight: 400;
 }
 
 main {
@@ -85,6 +85,8 @@ footer a {
 
 .l-box {
     text-align: left;
+    margin-top: 250px;
+    margin-bottom: 160px;
 }
 
 .button {
@@ -139,7 +141,7 @@ footer a {
     line-height: 1.25;
     text-align: center;
     padding: 16px 32px;
-    margin-bottom: 280px;
+    margin-bottom: 160px;
 }
 
 h1 {
@@ -161,15 +163,23 @@ h1 {
 
 .usp-all-container {
     text-align: center;
+    padding-top: 150px;
 }
 
 .usp {
     border-radius: 16px;
     background-color: #ffffff;
-    box-shadow: 0 25px 38px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 16px 38px 0 rgba(0, 0, 0, 0.2);
     display: inline-block;
     text-align: left;
     margin: 0 12px;
+    position: relative;
+}
+
+.usp-img {
+    width: 100%;
+    position: absolute;
+    top: -80px;
 }
 
 .usp h3 {
@@ -178,7 +188,8 @@ h1 {
     line-height: 1.15;
     letter-spacing: -0.4px;
     color: #4f5050;
-    margin-bottom: 20px;
+    margin-bottom: 26px;
+    margin-top: 170px;
     padding: 32px 32px 0;
 }
 
@@ -186,7 +197,7 @@ h1 {
     font-size: 16px;
     line-height: 1.56;
     color: #4f5050;
-    padding: 0 32px 32px;
+    padding: 0 32px 12px;
 }
 
 .single {
@@ -235,9 +246,11 @@ section.background-4:before {
 }
 
 section.background-1:before {
-    top: 0;
-    right: -140px;
-    background-image: url(background-1.svg);
+    top: 40px;
+    width: 836px;
+    height: 1200px;
+    right: -220px;
+    background-image: url(hero-bg.png);
 }
 
 section.background-2:before {
