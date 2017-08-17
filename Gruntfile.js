@@ -79,9 +79,9 @@ module.exports = function (grunt) {
             expand: true,
             flatten: true,
             src: [
-              'newhome/**/*'
+              'oldhome/**/*'
               ],
-            dest: 'dist/newhome/',
+            dest: 'dist/oldhome/',
             filter: 'isFile'}
         ]
       }
@@ -93,7 +93,7 @@ module.exports = function (grunt) {
         tasks: ['copy','stylus','jade']
       },
       html: {
-        files: ['newhome/**/*','home/**/*', 'src/**/*.jade'],
+        files: ['oldhome/**/*','home/**/*', 'src/**/*.jade'],
         tasks: ['copy','stylus','jade']
       }
     },
