@@ -180,42 +180,23 @@ section.background {
     position: relative;
 }
 
-section.background-1:before,
-section.background-2:before,
-section.background-3:before,
-section.background-4:before {
-    width: 50%;
-    height: 100%;
-    content: '';
-    display: block;
-    position: absolute;
-    background-size: 96%;
-    background-repeat: no-repeat;
-    z-index: -1;
-}
-
 section.background-1:before {
-    top: 0;
-    right: -32px;
-    background-image: url(background.svg);
+    display: none;
 }
 
-section.background-2:before {
-    top: 0;
-    left: -32px;
-    background-image: url(background.svg);
+section.background-2 img {
+    top: -60px;
+    left: -86px;
 }
 
-section.background-3:before {
-    top: 0;
-    right: -32px;
-    background-image: url(background.svg);
+section.background-3 img {
+    top: -145px;
+    right: -90px;
 }
 
-section.background-4:before {
-    top: 0;
-    left: -32px;
-    background-image: url(background.svg);
+section.background-4 img {
+    top: -175px;
+    left: -60px;
 }
 
 section.feature h3 {

@@ -235,47 +235,54 @@ h1 {
 section.background {
     min-height: 500px;
     position: relative;
+    margin-bottom: 150px;
 }
 
-section.background-1:before,
-section.background-2:before,
-section.background-3:before,
-section.background-4:before {
-    width: 500px;
-    height: 500px;
-    content: '';
+section.background:first-of-type {
+    margin-bottom: 0;
+}
+
+section.background img {
     display: block;
     position: absolute;
-    background-size: 100%;
-    background-repeat: no-repeat;
     z-index: -1;
+    width: calc(100% + 40px);
 }
 
 section.background-1:before {
+    content: '';
+    display: block;
+    position: absolute;
     top: 40px;
     width: 836px;
     height: 1200px;
     right: -220px;
+    background-size: 100%;
+    background-repeat: no-repeat;
     background-image: url(hero-bg.png);
+    z-index: -1;
 }
 
-section.background-2:before {
-    top: 0;
-    left: -140px;
-    background-image: url(background-2.svg);
+section.background-2 img {
+    top: -60px;
+    left: -120px;
+}
+@media (max-width: 985px) {
+    section.background-2 img {
+        top: 18px;
+    }
 }
 
-section.background-3:before {
-    top: 0;
-    right: -140px;
-    background-image: url(background-3.svg);
+section.background-3 img {
+    top: -60px;
+    right: -335px;
 }
 
-section.background-4:before {
-    top: 0;
-    left: -140px;
-    background-image: url(background-4.svg);
+section.background-4 img {
+    top: -60px;
+    left: -360px;
 }
+
 
 section.feature h3 {
     font-size: 38px;
