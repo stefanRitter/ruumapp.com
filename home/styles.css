@@ -173,6 +173,20 @@ h1 {
     margin-bottom: 30px;
 }
 
+.customers {
+    text-align: center;
+}
+.customers img {
+    display: inline-block;
+    width: 30%;
+    max-width: 120px;
+    margin: 0 1%;
+}
+.customers h3 {
+    font-weight: 300;
+    font-size: 25px;
+}
+
 .usp {
     border-radius: 16px;
     background-color: #ffffff;
