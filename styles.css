@@ -98,7 +98,7 @@ footer a {
 
 .l-box {
     text-align: left;
-    margin-top: 200px;
+    margin-top: 100px;
 }
 
 .button {
@@ -166,11 +166,11 @@ h1 {
 }
 
 .description {
-    font-size: 16px;
-    line-height: 1.63;
+    font-size: 19px;
+    line-height: 1.8;
     text-align: left;
     color: #4f5050;
-    margin-bottom: 90px;
+    margin-bottom: 30px;
 }
 
 .usp {
