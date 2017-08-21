@@ -57,11 +57,21 @@
 
     <main>
         <section class="pure-g background background-1">
-            <div class="pure-u-md-1-2 pure-u-1">
+            <div class="pure-u-md-1-2 pure-u-1" style="width:99%">
                 <div class="l-box">
-                    <h1>A simple, shared editor to master your projects.</h1>
+                    <h1>
+                        Juggling 20 <span id="juggler">opportunities</span>?
+                        <br>
+                        Never miss a deadline with Ruum.
+                        <!-- Ruum is made for you. -->
+                    </h1>
                     <p class="description">
-                        With all your team's tasks, files, and emails in one place, Ruum is the calmer and more focused way to move your work forward.
+                        <span style="color:#39abbb">&check;</span> All tasks, files, and emails in one place.
+                        <br>
+                        <span style="color:#39abbb">&check;</span> Works across companies and departments.
+                        <br>
+                        <span style="color:#39abbb">&check;</span> Integrations with your existing tools (Office, CRM, &amp; more).
+                        <!-- With all your team's tasks, files, and emails in one place, Ruum is the calmer and more focused way to move your work forward. -->
                     </p>
                     <div>
                         <a class="ruum-button button" href="https://open.ruumapp.com/signup">Signup - It's free!</a>
@@ -188,6 +198,22 @@
         ga('create', 'UA-29162810-48', 'auto');
         ga('set', 'anonymizeIp', true);
         ga('send', 'pageview');
+    </script>
+
+    <style media="screen">
+        #juggler {
+            font-weight: bold;
+        }
+    </style>
+    <script type="text/javascript">
+        var index = 0;
+        var juggling = ['opportunities', 'projects', 'incidents'];
+        function loop () {
+            index = index+1 > 2 ? 0 : index+1;
+            document.querySelector('#juggler').innerHTML = juggling[index];
+            setTimeout(loop, 1500);
+        }
+        loop();
     </script>
 
     <!--Chat Icon-->
