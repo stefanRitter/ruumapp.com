@@ -63,6 +63,10 @@ header {
     padding: 40px 140px;
     max-width: 1200px;
     margin: auto;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 300;
 }
 
 header nav {
@@ -141,6 +145,7 @@ footer a {
 .button.signup {
     border-radius: 65px;
     border: solid 1px #dadddd;
+    background: white;
 }
 
 .ruum-button.button {
