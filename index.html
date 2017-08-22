@@ -68,7 +68,7 @@
                     <p class="description">
                         <span style="color:#39abbb">&check;</span> All tasks, files, and emails in one place.
                         <br>
-                        <span style="color:#39abbb">&check;</span> Works with your customers and suppliers.
+                        <span style="color:#39abbb">&check;</span> Work with your customers and suppliers.
                         <br>
                         <span style="color:#39abbb">&check;</span> Define repeatable project templates.
                         <br>
@@ -218,7 +218,7 @@
         var index = 0;
         var juggling = ['opportunities', 'projects', 'incidents', 'events'];
         function loop () {
-            index = index+1 > 2 ? 0 : index+1;
+            index = index+1 > 3 ? 0 : index+1;
             document.querySelector('#juggler').innerHTML = juggling[index];
             setTimeout(loop, 1500);
         }
