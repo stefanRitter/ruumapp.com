@@ -1,4 +1,6 @@
-
+.hide-phone {
+    display: none;
+}
 main {
     padding: 100px 32px;
     max-width: 1200px;
