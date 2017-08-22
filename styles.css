@@ -47,7 +47,7 @@ div, p, section {
 }
 
 main {
-    padding: 0 20px;
+    padding: 100px 20px 0;
     max-width: 1200px;
     margin: auto;
     overflow-x: hidden;
@@ -63,6 +63,10 @@ header {
     padding: 40px 140px;
     max-width: 1200px;
     margin: auto;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 300;
 }
 
 header nav {
@@ -141,6 +145,7 @@ footer a {
 .button.signup {
     border-radius: 65px;
     border: solid 1px #dadddd;
+    background: white;
 }
 
 .ruum-button.button {
@@ -174,6 +179,7 @@ h1 {
 }
 
 .customers {
+    margin: 100px 0;
     text-align: center;
 }
 .customers img {
