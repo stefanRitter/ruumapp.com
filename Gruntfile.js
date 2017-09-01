@@ -72,27 +72,15 @@ module.exports = function (grunt) {
             dest: 'dist/',
             filter: 'isFile'}
         ]
-      },
-      second: {
-        files: [
-          {
-            expand: true,
-            flatten: true,
-            src: [
-              'oldhome/**/*'
-              ],
-            dest: 'dist/oldhome/',
-            filter: 'isFile'}
-        ]
-    },third: {
+      },third: {
       files: [
         {
           expand: true,
           flatten: true,
           src: [
-            'sales/**/*'
+            'all/**/*'
             ],
-          dest: 'dist/sales/',
+          dest: 'dist/all/',
           filter: 'isFile'}
       ]
     }
