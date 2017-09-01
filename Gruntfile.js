@@ -55,7 +55,7 @@ module.exports = function (grunt) {
               'src/**/*.css',
               'src/*.ico',
               'src/*.html',
-              'home/**/*'
+              'home/**/*',
               ],
             dest: 'dist/',
             filter: 'isFile'}
@@ -84,7 +84,18 @@ module.exports = function (grunt) {
             dest: 'dist/oldhome/',
             filter: 'isFile'}
         ]
-      }
+    },third: {
+      files: [
+        {
+          expand: true,
+          flatten: true,
+          src: [
+            'sales/**/*'
+            ],
+          dest: 'dist/sales/',
+          filter: 'isFile'}
+      ]
+    }
     },
 
     watch: {
