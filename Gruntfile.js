@@ -86,6 +86,19 @@ module.exports = function (grunt) {
                             }
                         ]
                 },
+            hr: {
+                            files: [
+                                {
+                                    expand: true,
+                                    flatten: true,
+                                    src: [
+                                        'hr/**/*'
+                                    ],
+                                    dest: 'dist/hr/',
+                                    filter: 'isFile'
+                                }
+                            ]
+            },
             all: {
                         files: [
                             {
