@@ -295,7 +295,7 @@ section.background-1:before {
     right: -220px;
     background-size: 100%;
     background-repeat: no-repeat;
-    background-image: url(../hero.png);
+    background-image: url(hero.png);
     z-index: -1;
 }
 
