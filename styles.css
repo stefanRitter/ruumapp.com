@@ -61,7 +61,8 @@ main {
 }
 
 header {
-    padding: 40px 140px;
+    background-color: #fff;
+    padding: 10px 140px;
     max-width: 1200px;
     margin: auto;
     position: fixed;
