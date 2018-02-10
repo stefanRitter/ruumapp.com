@@ -1,0 +1,62 @@
+- var url         = "https://ruumapp.com"
+- var title       = "Ruum"
+- var description = "Ruum - The single source of truth your team will actually use."
+- var smoke       = "home"
+
+doctype
+html(lang="en", itemtype="http://schema.org/WebPage" itemscope)
+  
+  head(prefix="og: http://ogp.me/ns#")
+    include ../shared/_meta.jade
+    
+  body
+    .title.black
+      h1
+        a(href="/")
+          img(src="/ruum-logo.svg" style="width:100%;max-width:200px;" alt="RUUM")      
+      h2 FAqs
+    .clear-both
+    .clear-both
+    
+    div(style="padding: 10px;margin:auto;max-width:900px;")
+        h3 How can I delete my files and emails?
+        p.
+            Every email or file you upload to Ruum can be deleted by clicking on the more menu (symbolized by 3 dots) and then choosing delete in the drop down.
+            Once you confirm the deletion the object will be removed from our servers immediately - caution this is not reversible!
+            Should you wish to undo this action you will have to re-upload the deleted email or file.
+
+
+        h3 How can I delete my user?
+        p
+            | You can request deletion in your profile settings by clicking 'Delete User' or by dropping us an email at 
+            a(href="feedback@ruumapp.com") feedback@ruumapp.com
+            | - subject: Delete my user.
+
+
+        p The deletion process will proceed as follows:
+        ol
+            li We acknowledge the deletion request via email - you will have 10 days to cancel the request.
+            li After 10 days should you not cancel the request the deletion will be initiated.
+            li Projects that you owned and were the sole participant in will be removed completely.
+            li For projects you took part in as a participant your contributions will be anonymized - your name and email address will be replaced with the phrase 'Deleted User'.
+            li 90 days after the deletion was processed your data will also be removed from our backups.
+
+            
+        h3 How can I see my personal data logs?
+        p
+            | You can request your personal data logs (changes to your name and email address) at any time by dropping us an email at 
+            a(href="feedback@ruumapp.com") feedback@ruumapp.com
+            | - subject: Request data logs.
+
+            
+        h3 Any other questions?
+        p
+            | Please feel free to reach to us at any time at  
+            a(href="feedback@ruumapp.com") feedback@ruumapp.com
+            | .
+            
+        p Updated: February 10, 2018
+        p &nbsp;
+
+    include ../shared/_chat.jade
+    include ../shared/_scripts.jade
