@@ -86,6 +86,32 @@ module.exports = function (grunt) {
                             }
                         ]
                 },
+            pdfTerms: {
+                        files: [
+                            {
+                                expand: true,
+                                flatten: true,
+                                src: [
+                                    'pdf/terms/**/*'
+                                ],
+                                dest: 'dist/pdf/terms/',
+                                filter: 'isFile'
+                            }
+                        ]
+                },
+            pdfPrivacy: {
+                        files: [
+                            {
+                                expand: true,
+                                flatten: true,
+                                src: [
+                                    'pdf/privacy/**/*'
+                                ],
+                                dest: 'dist/pdf/privacy/',
+                                filter: 'isFile'
+                            }
+                        ]
+                },
             hr: {
                             files: [
                                 {
