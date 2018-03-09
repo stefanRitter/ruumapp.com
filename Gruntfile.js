@@ -86,6 +86,19 @@ module.exports = function (grunt) {
                             }
                         ]
                 },
+            pricing: {
+                        files: [
+                            {
+                                expand: true,
+                                flatten: true,
+                                src: [
+                                    'pricing/**/*'
+                                ],
+                                dest: 'dist/pricing/',
+                                filter: 'isFile'
+                            }
+                        ]
+                },
             pdfTerms: {
                         files: [
                             {
