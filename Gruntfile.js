@@ -90,11 +90,11 @@ module.exports = function (grunt) {
                         files: [
                             {
                                 expand: true,
-                                flatten: true,
+                                flatten: false,
                                 src: [
                                     'pricing/**/*'
                                 ],
-                                dest: 'dist/pricing/',
+                                dest: 'dist/',
                                 filter: 'isFile'
                             }
                         ]
