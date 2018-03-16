@@ -55,13 +55,12 @@ module.exports = function (grunt) {
                             'src/**/*.css',
                             'src/*.ico',
                             'src/*.html',
-                            'home/**/*',
                         ],
                         dest: 'dist/',
                         filter: 'isFile'}
                     ]
                 },
-            root: {
+                root: {
                     files: [
                         {
                             expand: true,
@@ -72,21 +71,8 @@ module.exports = function (grunt) {
                             dest: 'dist/',
                             filter: 'isFile'}
                         ]
-            },
-            sales: {
-                        files: [
-                            {
-                                expand: true,
-                                flatten: true,
-                                src: [
-                                    'sales/**/*'
-                                ],
-                                dest: 'dist/sales/',
-                                filter: 'isFile'
-                            }
-                        ]
-                },
-            pricing: {
+                    },
+                    pricing: {
                         files: [
                             {
                                 expand: true,
@@ -98,8 +84,21 @@ module.exports = function (grunt) {
                                 filter: 'isFile'
                             }
                         ]
-                },
-            pdfTerms: {
+                    },
+                    home: {
+                        files: [
+                            {
+                                expand: true,
+                                flatten: true,
+                                src: [
+                                    'home/**/*'
+                                ],
+                                dest: 'dist/',
+                                filter: 'isFile'
+                            }
+                        ]
+                    },
+                    pdfTerms: {
                         files: [
                             {
                                 expand: true,
@@ -111,8 +110,8 @@ module.exports = function (grunt) {
                                 filter: 'isFile'
                             }
                         ]
-                },
-            pdfPrivacy: {
+                    },
+                    pdfPrivacy: {
                         files: [
                             {
                                 expand: true,
@@ -124,34 +123,8 @@ module.exports = function (grunt) {
                                 filter: 'isFile'
                             }
                         ]
+                    }
                 },
-            hr: {
-                            files: [
-                                {
-                                    expand: true,
-                                    flatten: true,
-                                    src: [
-                                        'hr/**/*'
-                                    ],
-                                    dest: 'dist/hr/',
-                                    filter: 'isFile'
-                                }
-                            ]
-            },
-            all: {
-                        files: [
-                            {
-                                expand: true,
-                                flatten: true,
-                                src: [
-                                    'all/**/*'
-                                ],
-                                dest: 'dist/all/',
-                                filter: 'isFile'
-                            }
-                        ]
-                }
-            },
 
                 watch: {
                     styles: {
