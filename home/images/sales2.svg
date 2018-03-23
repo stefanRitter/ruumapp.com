@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="168px" height="168px" viewBox="0 0 168 168" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 12</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="69" cy="69" r="69"></circle>
+        <filter x="-15.6%" y="-15.6%" width="134.1%" height="134.1%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="2.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="2" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.10266644 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-3" points="0 0 61 0 61 74 0 74"></polygon>
+    </defs>
+    <g id="Homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD-Copy-5" transform="translate(-512.000000, -186.000000)">
+            <g id="Group-12" transform="translate(525.000000, 199.000000)">
+                <g id="Group-4">
+                    <g id="Oval-2">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#39ABBB" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <g id="Page-1" transform="translate(33.000000, 30.000000)">
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <g id="Clip-2"></g>
+                    </g>
+                </g>
+                <circle id="Oval-4" stroke="#FFFFFF" stroke-width="4" cx="69" cy="69" r="32"></circle>
+                <path d="M71.0993211,57.2743702 L71.0993211,66.5865279 C75.6665063,67.9534502 77.9986859,68.9786418 79.5534724,70.9008762 C80.573801,72.1823658 81.1082588,73.8483023 81.1082588,75.5996714 L81.1082588,75.8986857 C81.0110847,77.6927711 80.3794527,79.9994524 77.9500989,81.7935378 C75.472158,83.5876232 72.6541076,83.9293538 71.050734,84.1002191 L71.050734,87.2185104 C71.002147,87.6456736 70.9049728,88.5 69.4473605,88.5 C68.0869224,88.5 67.9897482,87.6456736 67.9411612,87.2185104 L67.9411612,84.1002191 C66.4349618,83.9720701 63.0824535,83.6730559 60.2644031,81.2382256 C58.3209201,79.5722892 57.1062432,77.1374589 57.1062432,75.9841183 C57.1062432,74.6171961 58.272333,73.8910186 59.535597,73.8910186 C61.0903834,73.8910186 61.47908,74.8307777 61.8191896,75.6851041 C62.4022345,77.2656079 63.7140855,80.0421687 67.9411612,80.5547645 L67.9411612,70.0465498 C63.8112597,68.8504929 58.6610296,67.269989 58.6610296,61.8450164 C58.6610296,57.0607886 62.5479957,54.2415115 68.0383353,53.8570646 L68.0383353,50.7814896 C68.0869224,50.3543264 68.2326836,49.5 69.5931217,49.5 C70.9535599,49.5 71.050734,50.439759 71.0993211,50.7814896 L71.0993211,53.8997809 C78.8246662,54.3269441 80.4280398,60.0936473 80.4280398,60.9052574 C80.4280398,62.1013143 79.3591241,62.6993428 78.1930342,62.6993428 C76.8325961,62.6993428 76.3953124,61.8877327 76.2009641,61.4605696 C75.5207451,59.922782 74.6461777,57.9578313 71.0993211,57.2743702 Z M71.050734,71.0717415 L71.050734,80.5974808 C72.1196497,80.4266156 76.3953124,79.7431544 76.3953124,75.8986857 C76.3953124,73.0366922 74.0145457,71.8833516 71.050734,71.0717415 Z M67.9897482,65.6467689 L67.9897482,57.2316539 C64.3943046,57.6161008 63.4225631,59.922782 63.4225631,61.4605696 C63.4225631,64.0235487 65.5603944,64.7924425 67.9897482,65.6467689 Z" id="$" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

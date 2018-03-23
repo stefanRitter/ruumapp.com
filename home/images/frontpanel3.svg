@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="806px" height="322px" viewBox="0 0 806 322" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 12</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="758.160072" height="274.560026" rx="11.9808011"></rect>
+        <filter x="-5.5%" y="-10.9%" width="111.1%" height="130.6%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="12" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="12" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.172530122   0 0 0 0 0.181416482   0 0 0 0 0.18266369  0 0 0 0.16 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-12" transform="translate(24.000000, 12.000000)">
+            <g id="Container-Copy-6">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+            <polygon id="Line-3-Copy" fill-opacity="0.03" fill="#173145" fill-rule="nonzero" points="247 13 248.56 13 248.56 253.240023 247 253.240023"></polygon>
+            <polygon id="Line-3-Copy" fill-opacity="0.03" fill="#173145" fill-rule="nonzero" points="322 13 323.56 13 323.56 253.240023 322 253.240023"></polygon>
+            <polygon id="Line-3-Copy" fill-opacity="0.03" fill="#173145" fill-rule="nonzero" points="397 13 398.56 13 398.56 253.240023 397 253.240023"></polygon>
+            <polygon id="Line-3-Copy" fill-opacity="0.03" fill="#173145" fill-rule="nonzero" points="471 13 472.56 13 472.56 253.240023 471 253.240023"></polygon>
+            <polygon id="Line-3-Copy" fill-opacity="0.03" fill="#173145" fill-rule="nonzero" points="546 13 547.56 13 547.56 253.240023 546 253.240023"></polygon>
+            <polygon id="Line-3-Copy" fill-opacity="0.03" fill="#173145" fill-rule="nonzero" points="621 13 622.56 13 622.56 253.240023 621 253.240023"></polygon>
+            <polygon id="Line-3-Copy" fill-opacity="0.03" fill="#173145" fill-rule="nonzero" points="696 13 697.56 13 697.56 253.240023 696 253.240023"></polygon>
+            <rect id="Rectangle-15" fill="#A2D16B" x="287" y="22" width="234.000022" height="17.1600016" rx="8.58000081"></rect>
+            <rect id="Rectangle-15-Copy" fill="#A2D16B" x="362" y="81" width="160.680015" height="17.1600016" rx="8.58000081"></rect>
+            <rect id="Rectangle-15-Copy-2" fill="#4697DE" x="549" y="150" width="17.1600016" height="17.1600016" rx="8.58000081"></rect>
+            <path d="M515.580001,194 L756.600024,194 L756.600024,211.160002 L515.580001,211.160002 C510.841397,211.160002 507,207.318604 507,202.580001 L507,202.580001 C507,197.841397 510.841397,194 515.580001,194 Z" id="Rectangle-15-Copy-3" fill="#F86055"></path>
+            <rect id="Container-Copy-9" fill="#F86055" x="514" y="220" width="17.1600016" height="17.1600016" rx="8.58000081"></rect>
+            <rect id="Container-Copy-10" fill="#4697DE" x="549" y="150" width="17.1600016" height="17.1600016" rx="8.58000081"></rect>
+            <path d="M561.07722,160.488001 C560.870256,159.974299 560.551124,159.50187 560.141459,159.070307 C559.87084,158.785223 559.579784,158.53933 559.289218,158.334262 C559.227471,158.290683 559.171057,158.252542 559.120958,158.219875 C559.070651,158.25292 559.013978,158.291507 558.951932,158.335592 C558.66111,158.542222 558.369808,158.789487 558.098967,159.075577 C557.690697,159.506833 557.372331,159.977617 557.165239,160.488001 L561.07722,160.488001 Z M558.287355,157.68143 C558.007171,157.47047 557.729727,157.227047 557.467173,156.950458 C556.554642,155.989151 556,154.826317 556,153.468 C556,153.209531 556.199553,153 556.445714,153 L561.794286,153 C562.040447,153 562.240001,153.209531 562.240001,153.468 C562.240001,154.81969 561.685465,155.98072 560.773253,156.944292 C560.510564,157.221771 560.232967,157.466332 559.952646,157.678571 C560.23283,157.889531 560.510273,158.132954 560.772828,158.409542 C561.685358,159.37085 562.240001,160.533684 562.240001,161.892001 C562.240001,162.15047 562.040447,162.360001 561.794286,162.360001 L556.445714,162.360001 C556.199553,162.360001 556,162.15047 556,161.892001 C556,160.54031 556.554535,159.379281 557.466748,158.415708 C557.729436,158.13823 558.007034,157.893669 558.287355,157.68143 Z M557.692536,155.808 L560.542522,155.808 C560.961864,155.243708 561.2341,154.619754 561.319639,153.936 L559.12,153.936 L557.861666,153.936 L556.92003,153.936 C557.004864,154.621583 557.275476,155.245337 557.692536,155.808 Z" id="Hourglass-Copy-2" fill="#FFFFFF"></path>
+            <text id="Status---Commercial" font-family="Roboto-Bold, Roboto" font-size="14.2272013" font-weight="bold" line-spacing="28.5143068" letter-spacing="-0.203245719" fill="#173145" fill-opacity="0.801828578">
+                <tspan x="14" y="24">Status - Commercial Side</tspan>
+            </text>
+            <path d="M306.082762,47.2450772 C306.391939,46.9287615 306.905149,46.9171059 307.229048,47.2190436 C307.552948,47.5209813 307.564883,48.0221747 307.255706,48.3384904 L299.654779,56.114925 C299.335386,56.4416928 298.801228,56.4416928 298.481835,56.114925 L295.224295,52.7821673 C294.915118,52.4658516 294.927054,51.9646582 295.250953,51.6627205 C295.574852,51.3607828 296.088062,51.3724385 296.397239,51.6887542 L299.068307,54.4214983 L306.082762,47.2450772 Z" id="Shape-Copy-7" fill="#A2D16B" fill-rule="nonzero"></path>
+            <path d="M384.082762,106.245077 C384.391939,105.928762 384.905149,105.917106 385.229048,106.219044 C385.552948,106.520981 385.564883,107.022175 385.255706,107.33849 L377.654779,115.114925 C377.335386,115.441693 376.801228,115.441693 376.481835,115.114925 L373.224295,111.782167 C372.915118,111.465852 372.927054,110.964658 373.250953,110.662721 C373.574852,110.360783 374.088062,110.372438 374.397239,110.688754 L377.068307,113.421498 L384.082762,106.245077 Z" id="Shape-Copy-8" fill="#A2D16B" fill-rule="nonzero"></path>
+            <text id="Finalize-GDPR-reqs" font-family="Roboto-Regular, Roboto" font-size="13.4184973" font-weight="normal" line-spacing="20.127746" fill="#173145" fill-opacity="0.801828578">
+                <tspan x="319" y="53">Finalize GDPR reqs</tspan>
+            </text>
+            <text id="Get-approval-for-dig" font-family="Roboto-Regular, Roboto" font-size="13.4184973" font-weight="normal" line-spacing="20.127746" fill="#173145" fill-opacity="0.801828578">
+                <tspan x="397" y="112">Get approval for digital store</tspan>
+            </text>
+            <text id="BMI-release-meeting" font-family="Roboto-Regular, Roboto" font-size="13.4184973" font-weight="normal" line-spacing="20.127746" fill="#173145" fill-opacity="0.801828578">
+                <tspan x="576" y="161">BMI release meeting</tspan>
+            </text>
+            <text id="Create-Opp-in-CRM" font-family="Roboto-Regular, Roboto" font-size="13.4184973" font-weight="normal" line-spacing="20.127746" fill="#173145" fill-opacity="0.801828578">
+                <tspan x="538" y="231">Create Opp in CRM</tspan>
+            </text>
+            <text id="!" font-family="Roboto-Bold, Roboto" font-size="13.4184973" font-weight="bold" line-spacing="20.127746" fill="#FFFFFF">
+                <tspan x="520" y="231">!</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
