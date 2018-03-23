@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="168px" height="168px" viewBox="0 0 168 168" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 5</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="69" cy="69" r="69"></circle>
+        <filter x="-15.6%" y="-15.6%" width="134.1%" height="134.1%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="2.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="2" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.10266644 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD-Copy-5" transform="translate(-1012.000000, -186.000000)">
+            <g id="Group-5" transform="translate(1025.000000, 199.000000)">
+                <g id="Group-2">
+                    <g id="Oval-2">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#39ABBB" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                </g>
+                <g id="Page-1" transform="translate(46.000000, 41.000000)" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="4">
+                    <path d="M47,23.3181818 C47,41.4545455 23.5,57 23.5,57 C23.5,57 0,41.4545455 0,23.3181818 C0,10.4387727 10.5201667,0 23.5,0 C36.4798333,0 47,10.4387727 47,23.3181818 Z" id="Stroke-1"></path>
+                    <path d="M24,16 C28.4186667,16 32,19.5813333 32,24 C32,28.4186667 28.4186667,32 24,32 C19.5813333,32 16,28.4186667 16,24 C16,19.5813333 19.5813333,16 24,16 Z" id="Stroke-3"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
