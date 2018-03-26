@@ -3014,7 +3014,7 @@ html.w-mod-js *[data-ix="modal-interaction"] {
     float: none;
   }
   .div-block-14.text {
-    margin-top: -147px;
+    margin-top: -127px;
     margin-right: 0px;
     padding-left: 0px;
   }
@@ -3077,29 +3077,46 @@ html.w-mod-js *[data-ix="modal-interaction"] {
   }
   .image-27 {
     left: 185px;
-    top: -20px;
+    top: -42px;
     width: 40%;
     max-width: 40%;
+  }
+  .image-27.upper-row {
+    top: -35px;
+  }
+  .image-27.lower-row {
+    top: -35px;
   }
   .backpanel-1 {
     width: 100vw;
   }
   .frontpanel-6 {
     top: 102px;
+    width: 90%;
   }
   .frontpanel-4 {
     left: 100px;
-    top: 165px;
+    top: 173px;
+    width: 75%;
   }
   .frontpanel-5 {
-    top: 217px;
+    top: 225px;
+    width: 90%;
+  }
+  .image-29 {
+    left: -10px;
+    top: 90px;
+    width: 90%;
+    max-width: 80%;
   }
   .frontpanel-2 {
-    top: 202px;
+    left: -10px;
+    top: 197px;
   }
   .frontpanel-3 {
     left: 100px;
-    top: 60px;
+    top: 58px;
+    width: 75%;
   }
   .section-5 {
     -webkit-box-orient: vertical;
