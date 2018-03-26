@@ -85,13 +85,39 @@ module.exports = function (grunt) {
                             }
                         ]
                     },
-                    home: {
+                    css: {
+                        files: [
+                            {
+                                expand: true,
+                                flatten: false,
+                                src: [
+                                    'css/**/*'
+                                ],
+                                dest: 'dist/',
+                                filter: 'isFile'
+                            }
+                        ]
+                    },
+                    images: {
+                        files: [
+                            {
+                                expand: true,
+                                flatten: false,
+                                src: [
+                                    'images/**/*'
+                                ],
+                                dest: 'dist/',
+                                filter: 'isFile'
+                            }
+                        ]
+                    },
+                    js: {
                         files: [
                             {
                                 expand: true,
                                 flatten: true,
                                 src: [
-                                    'home/**/*'
+                                    'js/**/*'
                                 ],
                                 dest: 'dist/',
                                 filter: 'isFile'
