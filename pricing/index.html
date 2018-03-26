@@ -89,7 +89,11 @@
             <div class="div-block-4"><img src="/images/professional.svg" data-w-id="9df83c97-c04c-f1c6-49d5-e29dd0be4e5f" style="opacity:0;-webkit-transform:translateX(0) translateY(-20PX) translateZ(0) scaleX(1) scaleY(1) scaleZ(1) rotateX(0) rotateY(0) rotateZ(0) skewX(0) skewY(0);-moz-transform:translateX(0) translateY(-20PX) translateZ(0) scaleX(1) scaleY(1) scaleZ(1) rotateX(0) rotateY(0) rotateZ(0) skewX(0) skewY(0);-ms-transform:translateX(0) translateY(-20PX) translateZ(0) scaleX(1) scaleY(1) scaleZ(1) rotateX(0) rotateY(0) rotateZ(0) skewX(0) skewY(0);transform:translateX(0) translateY(-20PX) translateZ(0) scaleX(1) scaleY(1) scaleZ(1) rotateX(0) rotateY(0) rotateZ(0) skewX(0) skewY(0)" class="image"></div>
             <div data-w-id="9df83c97-c04c-f1c6-49d5-e29dd0be4e60" style="opacity:0;-webkit-transform:translateX(0) translateY(-20PX) translateZ(0) scaleX(1) scaleY(1) scaleZ(1) rotateX(0) rotateY(0) rotateZ(0) skewX(0) skewY(0);-moz-transform:translateX(0) translateY(-20PX) translateZ(0) scaleX(1) scaleY(1) scaleZ(1) rotateX(0) rotateY(0) rotateZ(0) skewX(0) skewY(0);-ms-transform:translateX(0) translateY(-20PX) translateZ(0) scaleX(1) scaleY(1) scaleZ(1) rotateX(0) rotateY(0) rotateZ(0) skewX(0) skewY(0);transform:translateX(0) translateY(-20PX) translateZ(0) scaleX(1) scaleY(1) scaleZ(1) rotateX(0) rotateY(0) rotateZ(0) skewX(0) skewY(0)" class="div-block-3 pricing move-up-less">
               <h3 class="heading-3">Professional</h3>
-              <h1 class="heading-4">10<span class="text-span-4"> € <span class="text-span-5">user/mo</span></span>
+              <h1 class="heading-4">
+                  <span id="price">10</span>
+                  <span class="text-span-4"> <span id="currency">€</span>
+                      <span class="text-span-5">user/mo</span>
+                  </span>
               </h1>
               <ul class="unordered-list">
                 <li>10 GB File Storage</li>
@@ -133,6 +137,15 @@
       <div class="div-block-27"><a href="https://www.sap.com/corporate/en/legal/terms-of-use.html?__hstc=227380994.3f9ccb9c954e69f3252561fab70597f8.1521196636611.1521719502510.1521721640645.10&amp;__hssc=227380994.3.1521721640645&amp;__hsfp=3101177227" target="_blank" class="footer-links w-button">Terms of Use</a><a href="https://ruumapp.com/pages/privacy.html" target="_blank" class="footer-links w-button">Privacy</a></div>
     </div>
   </div>
+
+    <script type="text/javascript">
+        var o = (new Date()).getTimezoneOffset();
+        if (o > 180 || o < -180) {
+            document.getElementById('price').innerHTML = '12';
+            document.getElementById('currency').innerHTML = '$';
+        }
+    </script>
+
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" type="text/javascript" intergrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script src="/js/webflow.js" type="text/javascript"></script>
   <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
