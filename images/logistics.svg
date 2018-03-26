@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="168px" height="168px" viewBox="0 0 168 168" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 7 Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="69" cy="69" r="69"></circle>
+        <filter x="-15.6%" y="-15.6%" width="134.1%" height="134.1%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="2.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="2" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.10266644 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-7-Copy" transform="translate(13.000000, 13.000000)">
+            <g id="Group-2-Copy-3">
+                <g id="Oval-2">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#4998A3" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+            </g>
+            <g id="Page-1" transform="translate(42.000000, 40.000000)" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="4">
+                <path d="M29.9475782,0.573407492 L51.9475095,11.5346021 C53.8147537,12.4580827 55,14.35985 55,16.4397367 L55,42.5520425 C55,44.6346694 53.8147537,46.5336964 51.9475095,47.457177 L29.9475782,58.4183716 C28.399333,59.1938761 26.5733387,59.1938761 25.0250935,58.4183716 L3.0251622,47.457177 C1.15791803,46.5227352 -0.0163283051,44.6100067 0.000171643428,42.5273798 L0.000171643428,16.4397367 C0.000171643428,14.35985 1.18266795,12.4580827 3.05266212,11.5346021 L25.0525935,0.573407492 C26.5925887,-0.191135831 28.404833,-0.191135831 29.9475782,0.573407492 Z" id="Stroke-1"></path>
+                <polyline id="Stroke-3" points="1 13 27.5 26 54 13"></polyline>
+                <path d="M27,59 L27,27" id="Stroke-5"></path>
+            </g>
+        </g>
+    </g>
+</svg>
