@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="34px" height="58px" viewBox="0 0 34 58" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>attach-money copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Use-Cases" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-1751.000000, -355.000000)">
+            <g id="attach-money-copy" transform="translate(1732.000000, 348.000000)">
+                <rect id="Area-Copy-142" x="0" y="0" width="72" height="72"></rect>
+                <path d="M36,9 L36,63" id="Line-Copy" stroke="#39ABBB" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M51,22.5003662 C47.9961548,18.0137329 44.2842712,15 36,15 C27.7157288,15 21,18.5991211 21,25.5 C21,32.4008789 27.7157288,36 36,36" id="Oval-4" stroke="#39ABBB" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M36,36 C44.2842712,36 51,39.6108398 51,46.5 C51,53.3891602 44.2842712,57 36,57 C27.7157288,57 24.0038452,53.9862671 21,49.4996338" id="Oval-4-Copy" stroke="#39ABBB" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

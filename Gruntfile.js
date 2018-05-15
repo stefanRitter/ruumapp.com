@@ -85,6 +85,58 @@ module.exports = function (grunt) {
                             }
                         ]
                     },
+                    sales: {
+                        files: [
+                            {
+                                expand: true,
+                                flatten: false,
+                                src: [
+                                    'sales/**/*'
+                                ],
+                                dest: 'dist/',
+                                filter: 'isFile'
+                            }
+                        ]
+                    },
+                    hr: {
+                        files: [
+                            {
+                                expand: true,
+                                flatten: false,
+                                src: [
+                                    'hr/**/*'
+                                ],
+                                dest: 'dist/',
+                                filter: 'isFile'
+                            }
+                        ]
+                    },
+                    analytics: {
+                        files: [
+                            {
+                                expand: true,
+                                flatten: false,
+                                src: [
+                                    'analytics/**/*'
+                                ],
+                                dest: 'dist/',
+                                filter: 'isFile'
+                            }
+                        ]
+                    },
+                    usecases: {
+                        files: [
+                            {
+                                expand: true,
+                                flatten: false,
+                                src: [
+                                    'usecases/**/*'
+                                ],
+                                dest: 'dist/',
+                                filter: 'isFile'
+                            }
+                        ]
+                    },
                     resources: {
                         files: [
                             {

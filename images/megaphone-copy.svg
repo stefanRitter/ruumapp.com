@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="58px" height="52px" viewBox="0 0 58 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>megaphone copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Use-Cases" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-1739.000000, -506.000000)">
+            <g id="megaphone-copy" transform="translate(1732.000000, 496.000000)">
+                <rect id="bounds" x="0" y="0" width="72" height="72"></rect>
+                <path d="M33,42 C40.9957275,42 50.9957275,46 63,54 L63,12 C50.9951172,20 40.9951172,24 33,24 L18,24 C13.0294373,24 9,28.0294373 9,33 L9,33 C9,37.9705627 13.0294373,42 18,42 L21,42 L30,60 L36,54 L33,42 Z" id="Line" stroke="#39ABBB" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M33,42 L33,24" id="Line-Copy" stroke="#39ABBB" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>
