@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="58px" height="49px" viewBox="0 0 58 49" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>shipping copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Use-Cases" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-1740.000000, -960.000000)">
+            <g id="shipping-copy" transform="translate(1733.000000, 947.000000)">
+                <rect id="bounds" x="0" y="0" width="72" height="72"></rect>
+                <path d="M15,15 L39,15 C42.3137085,15 45,17.6862915 45,21 L45,36 L63,36 L63,42 C63,45.3137085 60.3137085,48 57,48 L15,48 C11.6862915,48 9,45.3137085 9,42 L9,21 C9,17.6862915 11.6862915,15 15,15 Z" id="Rectangle" stroke="#39ABBB" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+                <circle id="Oval-3" stroke="#39ABBB" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" cx="21" cy="54" r="6"></circle>
+                <circle id="Oval-3" stroke="#39ABBB" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" cx="51" cy="54" r="6"></circle>
+                <polyline id="Rectangle-2-Copy-7" stroke="#39ABBB" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" points="45 21 57 21 63 36"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

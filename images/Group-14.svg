@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="62px" height="60px" viewBox="0 0 62 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 14</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Use-Cases" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-1060.000000, -1594.000000)">
+            <g id="Group-14" transform="translate(1058.000000, 1594.000000)">
+                <rect id="bounds" x="0" y="0" width="66" height="66"></rect>
+                <path d="M27.5,57.75 L38.5,57.75" id="Line" stroke="#455A6A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M24.7533569,46.8926697 L41.2453003,46.7563782 C41.25,35.75 49.5,34.1000042 49.5,24.75 C49.5,15.6373016 42.1126984,8.25 33,8.25 C23.8873016,8.25 16.5,15.6373016 16.5,24.75 C16.5,34.1000042 24.75,35.75 24.7533569,46.8926697 Z" id="Oval" stroke="#455A6A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+                <circle id="Oval-Copy-10" fill="#39ABBB" cx="49.5" cy="2.75" r="2.75"></circle>
+                <circle id="Oval-Copy-44" fill="#39ABBB" cx="16.5" cy="2.75" r="2.75"></circle>
+                <circle id="Oval-Copy-10" fill="#39ABBB" cx="60.5" cy="22" r="2.75"></circle>
+                <circle id="Oval-Copy-45" fill="#39ABBB" cx="5.5" cy="22" r="2.75"></circle>
+                <circle id="Oval-Copy-10" fill="#39ABBB" cx="55" cy="41.25" r="2.75"></circle>
+                <circle id="Oval-Copy-46" fill="#39ABBB" cx="11" cy="41.25" r="2.75"></circle>
+            </g>
+        </g>
+    </g>
+</svg>
