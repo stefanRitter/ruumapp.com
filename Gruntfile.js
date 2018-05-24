@@ -98,6 +98,19 @@ module.exports = function (grunt) {
                             }
                         ]
                     },
+                    thanks: {
+                        files: [
+                            {
+                                expand: true,
+                                flatten: false,
+                                src: [
+                                    'thanks/**/*'
+                                ],
+                                dest: 'dist/',
+                                filter: 'isFile'
+                            }
+                        ]
+                    },
                     hr: {
                         files: [
                             {
