@@ -1,22 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="62px" height="60px" viewBox="0 0 62 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
-    <title>Group 14</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Use-Cases" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Artboard" transform="translate(-1060.000000, -1594.000000)">
-            <g id="Group-14" transform="translate(1058.000000, 1594.000000)">
-                <rect id="bounds" x="0" y="0" width="66" height="66"></rect>
-                <path d="M27.5,57.75 L38.5,57.75" id="Line" stroke="#455A6A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
-                <path d="M24.7533569,46.8926697 L41.2453003,46.7563782 C41.25,35.75 49.5,34.1000042 49.5,24.75 C49.5,15.6373016 42.1126984,8.25 33,8.25 C23.8873016,8.25 16.5,15.6373016 16.5,24.75 C16.5,34.1000042 24.75,35.75 24.7533569,46.8926697 Z" id="Oval" stroke="#455A6A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
-                <circle id="Oval-Copy-10" fill="#39ABBB" cx="49.5" cy="2.75" r="2.75"></circle>
-                <circle id="Oval-Copy-44" fill="#39ABBB" cx="16.5" cy="2.75" r="2.75"></circle>
-                <circle id="Oval-Copy-10" fill="#39ABBB" cx="60.5" cy="22" r="2.75"></circle>
-                <circle id="Oval-Copy-45" fill="#39ABBB" cx="5.5" cy="22" r="2.75"></circle>
-                <circle id="Oval-Copy-10" fill="#39ABBB" cx="55" cy="41.25" r="2.75"></circle>
-                <circle id="Oval-Copy-46" fill="#39ABBB" cx="11" cy="41.25" r="2.75"></circle>
-            </g>
-        </g>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="62" height="60" viewBox="0 0 62 60">
+  <g fill="none" fill-rule="evenodd" transform="translate(-2)">
+    <rect width="66" height="66"/>
+    <path fill="#31485A" fill-rule="nonzero" d="M27.5 59.75C26.3954305 59.75 25.5 58.8545695 25.5 57.75 25.5 56.6454305 26.3954305 55.75 27.5 55.75L38.5 55.75C39.6045695 55.75 40.5 56.6454305 40.5 57.75 40.5 58.8545695 39.6045695 59.75 38.5 59.75L27.5 59.75zM24.7698846 48.8926014C23.6591286 48.9017808 22.7536916 48.0040661 22.753357 46.8932722 22.752093 42.6976539 21.750884 40.2808823 18.9832975 36.2907681 18.9274587 36.2102636 18.4718176 35.5554516 18.3374664 35.3611612 15.6092994 31.4158561 14.5 28.7994875 14.5 24.75 14.5 14.5327321 22.7827321 6.25 33 6.25 43.2172679 6.25 51.5 14.5327321 51.5 24.75 51.5 28.8268757 50.3824652 31.4397442 47.6152522 35.4167576 47.4897913 35.5970689 47.0645416 36.2049226 47.0129162 36.2789207 44.2402368 40.2531922 43.2470643 42.6255782 43.2453001 46.7572322 43.2448314 47.8550196 42.3595781 48.747238 41.261828 48.7563099L24.7698846 48.8926014zM39.3193481 44.7722262C39.6337464 40.7826009 40.9704812 37.9490539 43.732382 33.9902321 43.7866967 33.9123792 44.2099246 33.3074155 44.3318617 33.1321686 46.674994 29.7646402 47.5 27.8357228 47.5 24.75 47.5 16.7418711 41.0081289 10.25 33 10.25 24.9918711 10.25 18.5 16.7418711 18.5 24.75 18.5 27.8156437 19.3194624 29.7484092 21.6274828 33.0861245 21.7578018 33.2745837 22.2111406 33.9260871 22.2700604 34.0110337 25.022351 37.9790953 26.3621492 40.8467382 26.6785102 44.8766917L39.3193481 44.7722262z"/>
+    <circle cx="49.5" cy="2.75" r="2.75" fill="#5CD0E0" fill-rule="nonzero"/>
+    <circle cx="16.5" cy="2.75" r="2.75" fill="#5CD0E0" fill-rule="nonzero"/>
+    <circle cx="60.5" cy="22" r="2.75" fill="#5CD0E0" fill-rule="nonzero"/>
+    <circle cx="5.5" cy="22" r="2.75" fill="#5CD0E0" fill-rule="nonzero"/>
+    <circle cx="55" cy="41.25" r="2.75" fill="#5CD0E0" fill-rule="nonzero"/>
+    <circle cx="11" cy="41.25" r="2.75" fill="#5CD0E0" fill-rule="nonzero"/>
+  </g>
 </svg>

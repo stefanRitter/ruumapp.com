@@ -1,18 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="52px" height="52px" viewBox="0 0 52 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
-    <title>group copy</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Use-Cases" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Artboard" transform="translate(-1742.000000, -659.000000)">
-            <g id="group-copy" transform="translate(1732.000000, 649.000000)">
-                <rect id="bounds" x="0" y="0" width="72" height="72"></rect>
-                <path d="M24,54 L11.9999418,54 L11.9999418,48 C11.9999418,41.372583 17.3725248,36 23.9999418,36 L36,36" id="Line-Copy-2" stroke="#39ABBB" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
-                <path d="M29.9962362,18.5107878 C29.0589632,18.1799805 28.0505,18 27,18 C22.0294373,18 18,22.0294373 18,27 C18,31.9705627 22.0294373,36 27,36" id="Oval-Copy" stroke="#39ABBB" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
-                <path d="M24,60 L24,54 C24,44.0588745 32.0588745,36 42,36 C51.9411255,36 60,44.0588745 60,54 L60,60 L24,60 Z" id="Line-Copy" stroke="#39ABBB" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
-                <circle id="Oval" stroke="#39ABBB" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" cx="42" cy="24" r="12"></circle>
-            </g>
-        </g>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 52 52">
+  <g fill="none" fill-rule="evenodd" transform="translate(-10 -10)">
+    <rect width="72" height="72"/>
+    <path fill="#5CD0E0" fill-rule="nonzero" d="M24,52 C25.1045695,52 26,52.8954305 26,54 C26,55.1045695 25.1045695,56 24,56 L11.9999418,56 C10.8953723,56 9.9999418,55.1045695 9.9999418,54 L9.9999418,48 C9.9999418,40.2680135 16.2679553,34 23.9999418,34 L36,34 C37.1045695,34 38,34.8954305 38,36 C38,37.1045695 37.1045695,38 36,38 L23.9999418,38 C18.4770943,38 13.9999418,42.4771525 13.9999418,48 L13.9999418,52 L24,52 Z"/>
+    <path fill="#5CD0E0" fill-rule="nonzero" d="M30.6618855,16.6248103 C31.7034821,16.9924383 32.2498416,18.1348405 31.8822137,19.1764371 C31.5145857,20.2180337 30.3721835,20.7643932 29.3305869,20.3967653 C28.5896836,20.135266 27.8054849,20 27,20 C23.1340068,20 20,23.1340068 20,27 C20,30.8659932 23.1340068,34 27,34 C28.1045695,34 29,34.8954305 29,36 C29,37.1045695 28.1045695,38 27,38 C20.9248678,38 16,33.0751322 16,27 C16,20.9248678 20.9248678,16 27,16 C28.2605491,16 29.4948207,16.2128988 30.6618855,16.6248103 Z"/>
+    <path fill="#5CD0E0" fill-rule="nonzero" d="M26,58 L58,58 L58,54 C58,45.163444 50.836556,38 42,38 C33.163444,38 26,45.163444 26,54 L26,58 Z M22,60 L22,54 C22,42.954305 30.954305,34 42,34 C53.045695,34 62,42.954305 62,54 L62,60 C62,61.1045695 61.1045695,62 60,62 L24,62 C22.8954305,62 22,61.1045695 22,60 Z"/>
+    <path fill="#5CD0E0" fill-rule="nonzero" d="M42,38 C34.2680135,38 28,31.7319865 28,24 C28,16.2680135 34.2680135,10 42,10 C49.7319865,10 56,16.2680135 56,24 C56,31.7319865 49.7319865,38 42,38 Z M42,34 C47.5228475,34 52,29.5228475 52,24 C52,18.4771525 47.5228475,14 42,14 C36.4771525,14 32,18.4771525 32,24 C32,29.5228475 36.4771525,34 42,34 Z"/>
+  </g>
 </svg>

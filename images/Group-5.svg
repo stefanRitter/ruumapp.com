@@ -1,17 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="58px" height="52px" viewBox="0 0 58 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
-    <title>Group 5</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Use-Cases" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Artboard" transform="translate(-915.000000, -1379.000000)">
-            <g id="Group-5" transform="translate(908.000000, 1369.000000)">
-                <rect id="bounds" x="0" y="0" width="72" height="72"></rect>
-                <rect id="Rectangle" stroke="#455A6A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" x="9" y="12" width="54" height="48" rx="6"></rect>
-                <polyline id="Line-Copy" stroke="#39ABBB" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" points="21 33 21 24 30 24"></polyline>
-                <polyline id="Line-Copy-8" stroke="#39ABBB" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" points="42 48 51 48 51 39"></polyline>
-            </g>
-        </g>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="58" height="52" viewBox="0 0 58 52">
+  <g fill="none" fill-rule="evenodd" transform="translate(-7 -10)">
+    <rect width="72" height="72"/>
+    <path fill="#31485A" fill-rule="nonzero" d="M15,14 C12.790861,14 11,15.790861 11,18 L11,54 C11,56.209139 12.790861,58 15,58 L57,58 C59.209139,58 61,56.209139 61,54 L61,18 C61,15.790861 59.209139,14 57,14 L15,14 Z M15,10 L57,10 C61.418278,10 65,13.581722 65,18 L65,54 C65,58.418278 61.418278,62 57,62 L15,62 C10.581722,62 7,58.418278 7,54 L7,18 C7,13.581722 10.581722,10 15,10 Z"/>
+    <path fill="#5CD0E0" fill-rule="nonzero" d="M23 33C23 34.1045695 22.1045695 35 21 35 19.8954305 35 19 34.1045695 19 33L19 24C19 22.8954305 19.8954305 22 21 22L30 22C31.1045695 22 32 22.8954305 32 24 32 25.1045695 31.1045695 26 30 26L23 26 23 33zM49 39C49 37.8954305 49.8954305 37 51 37 52.1045695 37 53 37.8954305 53 39L53 48C53 49.1045695 52.1045695 50 51 50L42 50C40.8954305 50 40 49.1045695 40 48 40 46.8954305 40.8954305 46 42 46L49 46 49 39z"/>
+  </g>
 </svg>

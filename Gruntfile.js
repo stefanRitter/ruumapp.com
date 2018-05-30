@@ -72,6 +72,45 @@ module.exports = function (grunt) {
                             filter: 'isFile'}
                         ]
                     },
+                    css: {
+                        files: [
+                            {
+                                expand: true,
+                                flatten: false,
+                                src: [
+                                    'css/**/*'
+                                ],
+                                dest: 'dist/',
+                                filter: 'isFile'
+                            }
+                        ]
+                    },
+                    images: {
+                        files: [
+                            {
+                                expand: true,
+                                flatten: false,
+                                src: [
+                                    'images/**/*'
+                                ],
+                                dest: 'dist/',
+                                filter: 'isFile'
+                            }
+                        ]
+                    },
+                    services: {
+                        files: [
+                            {
+                                expand: true,
+                                flatten: false,
+                                src: [
+                                    'services/**/*'
+                                ],
+                                dest: 'dist/',
+                                filter: 'isFile'
+                            }
+                        ]
+                    },
                     pricing: {
                         files: [
                             {
@@ -92,6 +131,32 @@ module.exports = function (grunt) {
                                 flatten: false,
                                 src: [
                                     'sales/**/*'
+                                ],
+                                dest: 'dist/',
+                                filter: 'isFile'
+                            }
+                        ]
+                    },
+                    logistics: {
+                        files: [
+                            {
+                                expand: true,
+                                flatten: false,
+                                src: [
+                                    'logistics/**/*'
+                                ],
+                                dest: 'dist/',
+                                filter: 'isFile'
+                            }
+                        ]
+                    },
+                    marketing: {
+                        files: [
+                            {
+                                expand: true,
+                                flatten: false,
+                                src: [
+                                    'marketing/**/*'
                                 ],
                                 dest: 'dist/',
                                 filter: 'isFile'
@@ -156,8 +221,8 @@ module.exports = function (grunt) {
                                 expand: true,
                                 flatten: false,
                                 src: [
-                                    'images/**/*',
-                                    'css/**/*',
+                                    '//images/**/*',
+                                    '/css/**/*',
                                     'js/**/*'
                                 ],
                                 dest: 'dist/',

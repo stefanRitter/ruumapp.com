@@ -1,18 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="58px" height="49px" viewBox="0 0 58 49" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
-    <title>shipping copy</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Use-Cases" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Artboard" transform="translate(-1740.000000, -960.000000)">
-            <g id="shipping-copy" transform="translate(1733.000000, 947.000000)">
-                <rect id="bounds" x="0" y="0" width="72" height="72"></rect>
-                <path d="M15,15 L39,15 C42.3137085,15 45,17.6862915 45,21 L45,36 L63,36 L63,42 C63,45.3137085 60.3137085,48 57,48 L15,48 C11.6862915,48 9,45.3137085 9,42 L9,21 C9,17.6862915 11.6862915,15 15,15 Z" id="Rectangle" stroke="#39ABBB" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
-                <circle id="Oval-3" stroke="#39ABBB" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" cx="21" cy="54" r="6"></circle>
-                <circle id="Oval-3" stroke="#39ABBB" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" cx="51" cy="54" r="6"></circle>
-                <polyline id="Rectangle-2-Copy-7" stroke="#39ABBB" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" points="45 21 57 21 63 36"></polyline>
-            </g>
-        </g>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="58" height="49" viewBox="0 0 58 49">
+  <g fill="none" fill-rule="evenodd" transform="translate(-7 -13)">
+    <rect width="72" height="72"/>
+    <path fill="#5CD0E0" fill-rule="nonzero" d="M61,38 L45,38 C43.8954305,38 43,37.1045695 43,36 L43,21 C43,18.790861 41.209139,17 39,17 L15,17 C12.790861,17 11,18.790861 11,21 L11,42 C11,44.209139 12.790861,46 15,46 L57,46 C59.209139,46 61,44.209139 61,42 L61,38 Z M47,34 L63,34 C64.1045695,34 65,34.8954305 65,36 L65,42 C65,46.418278 61.418278,50 57,50 L15,50 C10.581722,50 7,46.418278 7,42 L7,21 C7,16.581722 10.581722,13 15,13 L39,13 C43.418278,13 47,16.581722 47,21 L47,34 Z"/>
+    <path fill="#5CD0E0" fill-rule="nonzero" d="M21 62C16.581722 62 13 58.418278 13 54 13 49.581722 16.581722 46 21 46 25.418278 46 29 49.581722 29 54 29 58.418278 25.418278 62 21 62zM21 58C23.209139 58 25 56.209139 25 54 25 51.790861 23.209139 50 21 50 18.790861 50 17 51.790861 17 54 17 56.209139 18.790861 58 21 58zM51 62C46.581722 62 43 58.418278 43 54 43 49.581722 46.581722 46 51 46 55.418278 46 59 49.581722 59 54 59 58.418278 55.418278 62 51 62zM51 58C53.209139 58 55 56.209139 55 54 55 51.790861 53.209139 50 51 50 48.790861 50 47 51.790861 47 54 47 56.209139 48.790861 58 51 58zM45 23C43.8954305 23 43 22.1045695 43 21 43 19.8954305 43.8954305 19 45 19L57 19C57.8178092 19 58.5532267 19.4979019 58.8569534 20.2572186L64.8569534 35.2572186C65.2671802 36.2827857 64.7683484 37.4467266 63.7427814 37.8569534 62.7172143 38.2671802 61.5532734 37.7683484 61.1430466 36.7427814L55.6459341 23 45 23z"/>
+  </g>
 </svg>

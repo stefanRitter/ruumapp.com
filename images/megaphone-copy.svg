@@ -1,16 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="58px" height="52px" viewBox="0 0 58 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
-    <title>megaphone copy</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Use-Cases" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Artboard" transform="translate(-1739.000000, -506.000000)">
-            <g id="megaphone-copy" transform="translate(1732.000000, 496.000000)">
-                <rect id="bounds" x="0" y="0" width="72" height="72"></rect>
-                <path d="M33,42 C40.9957275,42 50.9957275,46 63,54 L63,12 C50.9951172,20 40.9951172,24 33,24 L18,24 C13.0294373,24 9,28.0294373 9,33 L9,33 C9,37.9705627 13.0294373,42 18,42 L21,42 L30,60 L36,54 L33,42 Z" id="Line" stroke="#39ABBB" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
-                <path d="M33,42 L33,24" id="Line-Copy" stroke="#39ABBB" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
-            </g>
-        </g>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="58" height="52" viewBox="0 0 58 52">
+  <g fill="none" fill-rule="evenodd" transform="translate(-7 -10)">
+    <rect width="72" height="72"/>
+    <path fill="#5CD0E0" fill-rule="nonzero" d="M37.940285,53.5149287 C38.1106725,54.1964788 37.9109743,54.9174529 37.4142136,55.4142136 L31.4142136,61.4142136 C30.4489312,62.379496 28.8216438,62.1154236 28.2111456,60.8944272 L19.763932,44 L18,44 C11.9248678,44 7,39.0751322 7,33 C7,26.9248678 11.9248678,22 18,22 L33,22 C40.5265408,22 50.1844072,18.1368535 61.8909121,10.3356912 C63.2200463,9.44996205 65,10.4027793 65,12 L65,54 C65,55.5972419 63.2200042,56.5500549 61.890873,55.6642828 C51.4904006,48.7331024 42.7066584,44.9105906 35.5976109,44.1442322 L37.940285,53.5149287 Z M31.059715,42.4850713 C30.7441416,41.2227778 31.6988577,40 33,40 C40.7414494,40 50.0537068,43.4604525 61,50.3240736 L61,15.675836 C50.0531759,22.5395187 40.7409296,26 33,26 L18,26 C14.1340068,26 11,29.1340068 11,33 C11,36.8659932 14.1340068,40 18,40 L21,40 C21.7575441,40 22.4500704,40.4280048 22.7888544,41.1055728 L30.5479029,56.6236699 L33.7850723,53.3865006 L31.059715,42.4850713 Z"/>
+    <path fill="#5CD0E0" fill-rule="nonzero" d="M35,42 C35,43.1045695 34.1045695,44 33,44 C31.8954305,44 31,43.1045695 31,42 L31,24 C31,22.8954305 31.8954305,22 33,22 C34.1045695,22 35,22.8954305 35,24 L35,42 Z"/>
+  </g>
 </svg>

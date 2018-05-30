@@ -1,17 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="58px" height="58px" viewBox="0 0 58 58" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
-    <title>Group 8</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Use-Cases" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Artboard" transform="translate(-915.000000, -1487.000000)">
-            <g id="Group-8" transform="translate(908.000000, 1480.000000)">
-                <rect id="bounds" x="0" y="0" width="72" height="72"></rect>
-                <circle id="Oval" stroke="#455A6A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" cx="36" cy="36" r="27"></circle>
-                <path d="M36,35 L36,23" id="Line-Copy" stroke="#39ABBB" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
-                <circle id="Oval" fill="#39ABBB" cx="36" cy="47" r="3"></circle>
-            </g>
-        </g>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="58" height="58" viewBox="0 0 58 58">
+  <g fill="none" fill-rule="evenodd" transform="translate(-7 -7)">
+    <rect width="72" height="72"/>
+    <path fill="#31485A" fill-rule="nonzero" d="M36,65 C19.9837423,65 7,52.0162577 7,36 C7,19.9837423 19.9837423,7 36,7 C52.0162577,7 65,19.9837423 65,36 C65,52.0162577 52.0162577,65 36,65 Z M36,61 C49.8071187,61 61,49.8071187 61,36 C61,22.1928813 49.8071187,11 36,11 C22.1928813,11 11,22.1928813 11,36 C11,49.8071187 22.1928813,61 36,61 Z"/>
+    <path fill="#5CD0E0" fill-rule="nonzero" d="M38,35 C38,36.1045695 37.1045695,37 36,37 C34.8954305,37 34,36.1045695 34,35 L34,23 C34,21.8954305 34.8954305,21 36,21 C37.1045695,21 38,21.8954305 38,23 L38,35 Z"/>
+    <circle cx="36" cy="47" r="3" fill="#5CD0E0" fill-rule="nonzero"/>
+  </g>
 </svg>

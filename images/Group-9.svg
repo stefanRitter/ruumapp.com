@@ -1,18 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="52px" height="52px" viewBox="0 0 52 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
-    <title>Group 9</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Use-Cases" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Artboard" transform="translate(-764.000000, -1490.000000)">
-            <g id="Group-9" transform="translate(754.000000, 1480.000000)">
-                <rect id="bounds" x="0" y="0" width="72" height="72"></rect>
-                <rect id="Rectangle" stroke="#455A6A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" x="12" y="12" width="48" height="48" rx="6"></rect>
-                <path d="M24,24 L48,24" id="Line-Copy-3" stroke="#39ABBB" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
-                <path d="M24,48 L36,48" id="Line-Copy-8" stroke="#39ABBB" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
-                <path d="M24,36 L48,36" id="Line-Copy-7" stroke="#39ABBB" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
-            </g>
-        </g>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 52 52">
+  <g fill="none" fill-rule="evenodd" transform="translate(-10 -10)">
+    <rect width="72" height="72"/>
+    <path fill="#31485A" fill-rule="nonzero" d="M18,14 C15.790861,14 14,15.790861 14,18 L14,54 C14,56.209139 15.790861,58 18,58 L54,58 C56.209139,58 58,56.209139 58,54 L58,18 C58,15.790861 56.209139,14 54,14 L18,14 Z M18,10 L54,10 C58.418278,10 62,13.581722 62,18 L62,54 C62,58.418278 58.418278,62 54,62 L18,62 C13.581722,62 10,58.418278 10,54 L10,18 C10,13.581722 13.581722,10 18,10 Z"/>
+    <path fill="#5CD0E0" fill-rule="nonzero" d="M24 26C22.8954305 26 22 25.1045695 22 24 22 22.8954305 22.8954305 22 24 22L48 22C49.1045695 22 50 22.8954305 50 24 50 25.1045695 49.1045695 26 48 26L24 26zM24 50C22.8954305 50 22 49.1045695 22 48 22 46.8954305 22.8954305 46 24 46L36 46C37.1045695 46 38 46.8954305 38 48 38 49.1045695 37.1045695 50 36 50L24 50zM24 38C22.8954305 38 22 37.1045695 22 36 22 34.8954305 22.8954305 34 24 34L48 34C49.1045695 34 50 34.8954305 50 36 50 37.1045695 49.1045695 38 48 38L24 38z"/>
+  </g>
 </svg>

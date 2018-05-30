@@ -1,19 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="55px" height="55px" viewBox="0 0 55 55" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
-    <title>Group 10</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Use-Cases" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Artboard" transform="translate(-762.000000, -1602.000000)">
-            <g id="Group-10" transform="translate(752.000000, 1592.000000)">
-                <rect id="bounds" x="0" y="0" width="75" height="75"></rect>
-                <circle id="Oval" stroke="#455A6A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" cx="37.5" cy="37.5" r="15.625"></circle>
-                <path d="M62.5,62.5 L50,50" id="Line-Copy" stroke="#455A6A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
-                <polyline id="Line-Copy" stroke="#39ABBB" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" points="12.5 21.875 12.5 12.5 21.875 12.5"></polyline>
-                <polyline id="Line-Copy-7" stroke="#39ABBB" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" points="62.5 21.875 62.5 12.5 53.125 12.5"></polyline>
-                <polyline id="Line-Copy-9" stroke="#39ABBB" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" points="21.875 62.5 12.5 62.5 12.5 53.125"></polyline>
-            </g>
-        </g>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" viewBox="0 0 55 55">
+  <g fill="none" fill-rule="evenodd" transform="translate(-10 -10)">
+    <rect width="75" height="75"/>
+    <path fill="#31485A" fill-rule="nonzero" d="M37.5,55.125 C27.7659813,55.125 19.875,47.2340187 19.875,37.5 C19.875,27.7659813 27.7659813,19.875 37.5,19.875 C47.2340187,19.875 55.125,27.7659813 55.125,37.5 C55.125,47.2340187 47.2340187,55.125 37.5,55.125 Z M37.5,51.125 C45.0248797,51.125 51.125,45.0248797 51.125,37.5 C51.125,29.9751203 45.0248797,23.875 37.5,23.875 C29.9751203,23.875 23.875,29.9751203 23.875,37.5 C23.875,45.0248797 29.9751203,51.125 37.5,51.125 Z"/>
+    <path fill="#31485A" fill-rule="nonzero" d="M63.9142136,61.0857864 C64.6952621,61.866835 64.6952621,63.133165 63.9142136,63.9142136 C63.133165,64.6952621 61.866835,64.6952621 61.0857864,63.9142136 L48.5857864,51.4142136 C47.8047379,50.633165 47.8047379,49.366835 48.5857864,48.5857864 C49.366835,47.8047379 50.633165,47.8047379 51.4142136,48.5857864 L63.9142136,61.0857864 Z"/>
+    <path fill="#5CD0E0" fill-rule="nonzero" d="M14.5 14.5L14.5 21.875C14.5 22.9795695 13.6045695 23.875 12.5 23.875 11.3954305 23.875 10.5 22.9795695 10.5 21.875L10.5 12.5C10.5 11.3954305 11.3954305 10.5 12.5 10.5L21.875 10.5C22.9795695 10.5 23.875 11.3954305 23.875 12.5 23.875 13.6045695 22.9795695 14.5 21.875 14.5L14.5 14.5zM53.125 14.5C52.0204305 14.5 51.125 13.6045695 51.125 12.5 51.125 11.3954305 52.0204305 10.5 53.125 10.5L62.5 10.5C63.6045695 10.5 64.5 11.3954305 64.5 12.5L64.5 21.875C64.5 22.9795695 63.6045695 23.875 62.5 23.875 61.3954305 23.875 60.5 22.9795695 60.5 21.875L60.5 14.5 53.125 14.5zM21.875 60.5C22.9795695 60.5 23.875 61.3954305 23.875 62.5 23.875 63.6045695 22.9795695 64.5 21.875 64.5L12.5 64.5C11.3954305 64.5 10.5 63.6045695 10.5 62.5L10.5 53.125C10.5 52.0204305 11.3954305 51.125 12.5 51.125 13.6045695 51.125 14.5 52.0204305 14.5 53.125L14.5 60.5 21.875 60.5z"/>
+  </g>
 </svg>
