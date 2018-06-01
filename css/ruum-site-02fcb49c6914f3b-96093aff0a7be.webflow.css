@@ -357,6 +357,10 @@
   transform: translate(0px, -2px);
 }
 
+.button.call-to-action-alt.centered {
+  margin-right: 0px;
+}
+
 .button.pricing {
   width: 100%;
   margin-right: 0px;
@@ -2768,7 +2772,7 @@
 
 .integration-description {
   padding-top: 0px;
-  padding-bottom: 5px;
+  padding-bottom: 16px;
   font-family: Roboto, sans-serif;
   color: rgba(23, 49, 69, .8);
   font-size: 16px;
@@ -2829,7 +2833,7 @@
   margin-top: 20px;
   margin-right: 0px;
   margin-left: 0px;
-  padding: 10px 20px;
+  padding: 12px 20px;
   border: 1px solid #5cd0e0;
   border-radius: 8px;
   background-color: transparent;
